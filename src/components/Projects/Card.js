@@ -1,7 +1,7 @@
 import {
-  EditOutlined,
-  EllipsisOutlined,
-  SettingOutlined,
+  GlobalOutlined,
+  GithubOutlined,
+  WechatOutlined,
 } from "@ant-design/icons";
 import { Avatar, Card } from "antd";
 const { Meta } = Card;
@@ -20,9 +20,9 @@ export const ProjectCard = ({ data }) => {
         />
       }
       actions={[
-        <SettingOutlined key="setting" />,
-        <EditOutlined key="edit" />,
-        <EllipsisOutlined key="ellipsis" />,
+        <GithubOutlined key="repo" />,
+        <GlobalOutlined key="deploy" />,
+        <WechatOutlined key="comment" />,
       ]}
     >
       <Meta title={data.name} description="This is the description" />
