@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import { ProjectCard } from "./Card";
+import { Badge } from "antd";
 
 export const Projects = ({ title }) => {
   const [githubData, setGithubData] = useState([]);
+  const show = true;
   const githubUser = "Am0031";
 
   const fetchData = () => {
@@ -17,10 +19,18 @@ export const Projects = ({ title }) => {
 
   return (
     <div>
-      <h1>{title}</h1>
-      {githubData.map((item) => {
-        return <ProjectCard data={item} key={item.name} />;
-      })}
+      <div className="project-cards-title">
+        <h1 className="title">{title}</h1>
+        <Badge
+          count={show ? githubData.length : 0}
+          style={{ backgroundColor: "#4c1a7a" }}
+        />
+      </div>
+      <div className="project-cards-container">
+        {githubData.map((item) => {
+          return <ProjectCard data={item} key={item.name} />;
+        })}
+      </div>
     </div>
   );
 };

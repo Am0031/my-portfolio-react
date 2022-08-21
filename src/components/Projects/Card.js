@@ -11,6 +11,7 @@ export const ProjectCard = ({ data }) => {
     <Card
       style={{
         width: 300,
+        margin: 10,
       }}
       cover={
         <img
