@@ -11,8 +11,8 @@ export const Contact = () => {
   };
 
   return (
-    <div>
-      <h1 className="title">Contact me</h1>
+    <div className="contact-container">
+      <h1 className="title contact-title">Contact me</h1>
       <div className="form-control">
         <Form
           name="basic"

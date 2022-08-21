@@ -16,7 +16,7 @@ li {
 }
 
 /*Navbar section*/
-.navbar {
+.navbar-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -38,11 +38,18 @@ li {
 
 /*About me section*/
 .about {
-  background-color: #531dab;
-  color: azure;
-  height: 300px;
+  background-image: url(../other/img/purple-wave.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
 }
 
+.about-text {
+  text-align: center;
+}
+.about-image {
+  width: 100%;
+}
 /* Project cards section - Repos from github*/
 .project-cards-container,
 .project-cards-title {
@@ -57,6 +64,9 @@ li {
 }
 
 /* Contact form section */
+.contact-title {
+  text-align: center;
+}
 .form-control {
   margin: 0 100px;
   align-items: center;

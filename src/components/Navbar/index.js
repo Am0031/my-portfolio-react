@@ -44,7 +44,7 @@ export const Navbar = () => {
   );
 
   return (
-    <div className="navbar">
+    <div className="navbar-container">
       <div className="navTitle">
         <h1 className="title">My Portfolio</h1>
         <Dropdown overlay={languageMenu}>
