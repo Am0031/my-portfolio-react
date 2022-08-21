@@ -1,3 +1,12 @@
 export const Banner = () => {
-  return <h1>Banner</h1>;
+  return (
+    <div>
+      <div className="navbar">
+        <div className="navbar-title">
+          <h1>Banner</h1>
+        </div>
+      </div>
+      <div className="banner"></div>
+    </div>
+  );
 };
