@@ -6,7 +6,16 @@ body,
 .title {
   margin: 0;
 }
+ul,
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+/*Navbar section*/
 .navbar {
   display: flex;
   flex-direction: row;
@@ -22,9 +31,16 @@ body,
 .navLink {
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  padding: 0 10px;
   font-weight: bold;
   color: #4c1a7a;
+}
+
+/*About me section*/
+.about {
+  background-color: #531dab;
+  color: azure;
+  height: 300px;
 }
 
 /* Project cards section - Repos from github*/
