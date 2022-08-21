@@ -14,8 +14,8 @@ export const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navTitle">
-        <h1>My Portfolio</h1>
-        <h1>Language select</h1>
+        <h1 className="title">My Portfolio</h1>
+        <h2 className="title">Language select</h2>
       </div>
       <div className="navLink">
         <Menu mode="horizontal" items={items} />
