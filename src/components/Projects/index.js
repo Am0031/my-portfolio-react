@@ -1,49 +1,26 @@
-import { useState } from "react";
-import { format } from "date-fns";
-
-import {
-  EditOutlined,
-  EllipsisOutlined,
-  SettingOutlined,
-} from "@ant-design/icons";
-import { Avatar, Card } from "antd";
-const { Meta } = Card;
+import { useEffect, useState } from "react";
+import { ProjectCard } from "./Card";
 
 export const Projects = ({ title }) => {
+  const [githubData, setGithubData] = useState([]);
+  const githubUser = "Am0031";
+
+  const fetchData = () => {
+    return fetch(`https://api.github.com/users/${githubUser}/repos`)
+      .then((response) => response.json())
+      .then((data) => setGithubData(data));
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <div>
       <h1>{title}</h1>
-      <Card
-        title="Default size card"
-        extra={<a href="#">More</a>}
-        style={{ width: 300 }}
-      >
-        <p>Card content</p>
-        <p>Card content</p>
-        <p>Card content</p>
-      </Card>
-      <Card
-        style={{
-          width: 300,
-        }}
-        cover={
-          <img
-            alt="example"
-            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-          />
-        }
-        actions={[
-          <SettingOutlined key="setting" />,
-          <EditOutlined key="edit" />,
-          <EllipsisOutlined key="ellipsis" />,
-        ]}
-      >
-        <Meta
-          avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-          title="Card title"
-          description="This is the description"
-        />
-      </Card>
+      {githubData.map((item) => {
+        return <ProjectCard data={item} key={item.name} />;
+      })}
     </div>
   );
 };
