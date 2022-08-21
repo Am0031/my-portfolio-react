@@ -1,4 +1,5 @@
 import { Button, Checkbox, Form, Input } from "antd";
+const { TextArea } = Input;
 
 export const Contact = () => {
   const onFinish = (values) => {
@@ -10,68 +11,80 @@ export const Contact = () => {
   };
 
   return (
-    <Form
-      name="basic"
-      labelCol={{
-        span: 8,
-      }}
-      wrapperCol={{
-        span: 16,
-      }}
-      initialValues={{
-        remember: true,
-      }}
-      onFinish={onFinish}
-      onFinishFailed={onFinishFailed}
-      autoComplete="off"
-    >
-      <Form.Item
-        label="Username"
-        name="username"
-        rules={[
-          {
-            required: true,
-            message: "Please input your username!",
-          },
-        ]}
-      >
-        <Input />
-      </Form.Item>
-
-      <Form.Item
-        label="Password"
-        name="password"
-        rules={[
-          {
-            required: true,
-            message: "Please input your password!",
-          },
-        ]}
-      >
-        <Input.Password />
-      </Form.Item>
-
-      <Form.Item
-        name="remember"
-        valuePropName="checked"
+    <div>
+      <h1 className="title">Contact me</h1>
+      <Form
+        name="basic"
+        labelCol={{
+          span: 8,
+        }}
         wrapperCol={{
-          offset: 8,
           span: 16,
         }}
-      >
-        <Checkbox>Remember me</Checkbox>
-      </Form.Item>
-
-      <Form.Item
-        wrapperCol={{
-          offset: 8,
-          span: 16,
+        initialValues={{
+          remember: true,
         }}
+        onFinish={onFinish}
+        onFinishFailed={onFinishFailed}
+        autoComplete="off"
       >
-        <Button type="primary" htmlType="submit">
-          Submit
-        </Button>
-      </Form.Item>
-    </Form>
+        <Form.Item
+          label="Full Name"
+          name="fullname"
+          rules={[
+            {
+              required: true,
+              message: "Please input your full name!",
+            },
+          ]}
+        >
+          <Input />
+        </Form.Item>
+        <Form.Item
+          label="Subject"
+          name="subject"
+          rules={[
+            {
+              required: true,
+              message: "Please input a subject!",
+            },
+          ]}
+        >
+          <Input />
+        </Form.Item>
+        <Form.Item
+          label="Message"
+          name="message"
+          rules={[
+            {
+              required: true,
+              message: "Please input your message here!",
+            },
+          ]}
+        >
+          <TextArea rows={4} />
+        </Form.Item>
+        <Form.Item
+          name="email"
+          valuePropName="checked"
+          wrapperCol={{
+            offset: 8,
+            span: 16,
+          }}
+        >
+          <Checkbox>Email me a copy</Checkbox>
+        </Form.Item>
+        <Form.Item
+          wrapperCol={{
+            offset: 8,
+            span: 16,
+          }}
+        >
+          <Button type="primary" htmlType="submit">
+            Send
+          </Button>
+        </Form.Item>
+      </Form>
+    </div>
   );
 };
