@@ -23,7 +23,7 @@ export const Projects = ({ title }) => {
         <h1 className="title">{title}</h1>
         <Badge
           count={show ? githubData.length : 0}
-          style={{ backgroundColor: "#4c1a7a" }}
+          style={{ backgroundColor: "#531dab" }}
         />
       </div>
       <div className="project-cards-container">

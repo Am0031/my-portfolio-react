@@ -81,7 +81,10 @@ export const Contact = () => {
               span: 24,
             }}
           >
-            <Button type="primary" htmlType="submit">
+            <Button
+              style={{ backgroundColor: "#531dab", color: "#fff" }}
+              htmlType="submit"
+            >
               Send
             </Button>
           </Form.Item>

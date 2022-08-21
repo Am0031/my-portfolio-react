@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
-import "antd/dist/antd.min.css";
+// import "antd/dist/antd.min.css";
+import "antd/dist/antd.less";
 import "./App.css";
 import { Portfolio } from "./pages/Portfolio";
 
