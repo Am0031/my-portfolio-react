@@ -32,7 +32,14 @@ body,
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 .title {
   margin: 1rem;
+}
+
+/* Contact form section */
+.form-control {
+  margin: 0 100px;
+  align-items: center;
 }
