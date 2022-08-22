@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { ProjectCard } from "./Card";
 import { Badge } from "antd";
 
-export const Projects = ({ title }) => {
+export const Projects = () => {
   const [githubData, setGithubData] = useState([]);
   const show = true;
   const githubUser = "Am0031";
@@ -20,7 +20,7 @@ export const Projects = ({ title }) => {
   return (
     <div>
       <div className="project-cards-title">
-        <h1 className="title">{title}</h1>
+        <h1 className="title">My projects</h1>
         <Badge
           count={show ? githubData.length : 0}
           style={{ backgroundColor: "#531dab" }}

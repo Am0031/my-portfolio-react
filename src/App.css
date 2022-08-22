@@ -33,7 +33,6 @@ body,
   text-align: center;
   padding: 0 10px;
   font-weight: bold;
-  color: #4c1a7a;
 }
 
 /*About me section*/
@@ -70,4 +69,16 @@ body,
 .form-control {
   margin: 0 100px;
   align-items: center;
+}
+
+/*Footer styling*/
+.footer-container {
+  height: 80px;
+  font-size: 40px;
+  text-align: center;
+}
+.footerLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
