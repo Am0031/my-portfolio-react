@@ -5,20 +5,25 @@ import { useTranslation } from "react-i18next";
 
 export const Navbar = ({ handleSectionChange }) => {
   const [itemName, setItemName] = useState("English");
+  const { i18n } = useTranslation();
+
+  const changeLanguage = (key) => {
+    i18n.changeLanguage(key);
+  };
 
   const languageItems = [
     {
-      key: "en",
+      key: "1",
       label: "English",
       value: "en",
     },
     {
-      key: "fr",
+      key: "2",
       label: "Francais",
       value: "fr",
     },
     {
-      key: "de",
+      key: "3",
       label: "Deutsch",
       value: "de",
     },
@@ -30,6 +35,7 @@ export const Navbar = ({ handleSectionChange }) => {
       items={languageItems}
       onSelect={({ key }) => {
         setItemName(languageItems[key - 1].label);
+        changeLanguage(languageItems[key - 1].value);
       }}
     />
   );
