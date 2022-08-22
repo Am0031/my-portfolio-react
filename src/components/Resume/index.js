@@ -6,7 +6,7 @@ export const Resume = () => {
   };
 
   return (
-    <div className="resume-container">
+    <div className="resume-container main">
       <h1 className="title resume-title">My CV</h1>
       <div className="resume-control">
         <Button

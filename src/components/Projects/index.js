@@ -18,7 +18,7 @@ export const Projects = () => {
   }, []);
 
   return (
-    <div>
+    <div className="main projects-container">
       <div className="project-cards-title">
         <h1 className="title">My projects</h1>
         <Badge
