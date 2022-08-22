@@ -49,6 +49,12 @@ export const Navbar = () => {
     },
   ];
 
+  const [current, setCurrent] = useState("link1");
+
+  const onClickLinks = (e) => {
+    setCurrent(e.key);
+  };
+
   return (
     <div className="navbar-container">
       <div className="navTitle">
@@ -65,7 +71,12 @@ export const Navbar = () => {
         </div>
       </div>
       <div className="navLink">
-        <Menu mode="horizontal" items={linkItems} />
+        <Menu
+          onClick={onClickLinks}
+          selectedKeys={[current]}
+          mode="horizontal"
+          items={linkItems}
+        />
       </div>
     </div>
   );
