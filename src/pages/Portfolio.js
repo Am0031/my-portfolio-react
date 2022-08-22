@@ -4,6 +4,7 @@ import { Navbar } from "../components/Navbar";
 import { Banner } from "../components/Banner";
 import { Projects } from "../components/Projects";
 import { Contact } from "../components/Contact";
+import { Resume } from "../components/Resume";
 import { Footer } from "../components/Footer";
 
 import { DASHBOARD_QUERY } from "../queries/projects";
@@ -17,7 +18,7 @@ export const Portfolio = () => {
       {section === "about" && <Banner />}
       {section === "projects" && <Projects />}
       {section === "contact" && <Contact />}
-
+      {section === "resume" && <Resume />}
       <Footer />
     </div>
   );
