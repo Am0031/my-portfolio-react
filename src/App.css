@@ -13,11 +13,6 @@ body {
 .main {
   min-height: 800px;
 }
-/* .main {
-  display: flex;
-  flex-direction: row;
-  flex: 2;
-} */
 
 /*Navbar section*/
 .navbar-container {
