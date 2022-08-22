@@ -20,6 +20,7 @@ export const ProjectCard = ({ data }) => {
           src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
         />
       }
+      hoverable={true}
       actions={[
         <a href={deploy} target="_blank">
           <GlobalOutlined key="deploy" href={deploy} />
@@ -32,7 +33,7 @@ export const ProjectCard = ({ data }) => {
         </a>,
       ]}
     >
-      <Meta title={data.name} description="This is the description" />
+      <Meta title={data.name} description={data.description} />
     </Card>
   );
 };
