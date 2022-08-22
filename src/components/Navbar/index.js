@@ -3,22 +3,22 @@ import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Menu, Space, Typography } from "antd";
 import { useTranslation } from "react-i18next";
 
-export const Navbar = () => {
+export const Navbar = ({ handleSectionChange }) => {
   const [itemName, setItemName] = useState("English");
 
   const languageItems = [
     {
-      key: "1",
+      key: "en",
       label: "English",
       value: "en",
     },
     {
-      key: "2",
+      key: "fr",
       label: "Francais",
       value: "fr",
     },
     {
-      key: "3",
+      key: "de",
       label: "Deutsch",
       value: "de",
     },
@@ -36,23 +36,18 @@ export const Navbar = () => {
 
   const { t } = useTranslation();
 
-  const linkItems = [
-    { label: t("link1"), key: "link1" }, // remember to pass the key prop which is required for mapping
-    { label: t("link2"), key: "link2" },
-    {
-      label: t("link3"),
-      key: "link3",
-      children: [
-        { label: t("sublink1"), key: "sublink1" },
-        { label: t("sublink2"), key: "sublink2" },
-      ],
-    },
+  const sections = [
+    { label: t("link1"), key: "about" }, // remember to pass the key prop which is required for mapping
+    { label: t("link2"), key: "projects" },
+    { label: t("link3"), key: "contact" },
+    { label: t("link4"), key: "resume" },
   ];
 
-  const [current, setCurrent] = useState("link1");
+  const [current, setCurrent] = useState("about");
 
   const onClickLinks = (e) => {
     setCurrent(e.key);
+    handleSectionChange(e.key);
   };
 
   return (
@@ -75,7 +70,7 @@ export const Navbar = () => {
           onClick={onClickLinks}
           selectedKeys={[current]}
           mode="horizontal"
-          items={linkItems}
+          items={sections}
         />
       </div>
     </div>

@@ -12,9 +12,13 @@ import { useEffect, useState } from "react";
 
 export const Portfolio = () => {
   const [section, setSection] = useState("about");
+
+  const handleSectionChange = (chosenSection) => {
+    setSection(chosenSection);
+  };
   return (
     <div>
-      <Navbar />
+      <Navbar handleSectionChange={handleSectionChange} />
       {section === "about" && <Banner />}
       {section === "projects" && <Projects />}
       {section === "contact" && <Contact />}
