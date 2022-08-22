@@ -1,19 +1,7 @@
 import { useEffect, useState } from "react";
 import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Menu, Space, Typography } from "antd";
-
-const linkItems = [
-  { label: "link 1", key: "link-1" }, // remember to pass the key prop
-  { label: "link 2", key: "link-2" }, // which is required
-  {
-    label: "sub menu",
-    key: "submenu",
-    children: [
-      { label: "sublink 1", key: "submenu-link-1" },
-      { label: "sublink 2", key: "submenu-link-2" },
-    ],
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export const Navbar = () => {
   const [itemName, setItemName] = useState("English");
@@ -43,10 +31,25 @@ export const Navbar = () => {
     />
   );
 
+  const { t } = useTranslation();
+
+  const linkItems = [
+    { label: t("link1"), key: "link1" }, // remember to pass the key prop
+    { label: t("link2"), key: "link2" }, // which is required
+    {
+      label: "sub menu",
+      key: "submenu",
+      children: [
+        { label: "sublink 1", key: "submenu-link-1" },
+        { label: "sublink 2", key: "submenu-link-2" },
+      ],
+    },
+  ];
+
   return (
     <div className="navbar-container">
       <div className="navTitle">
-        <h1 className="title">My Portfolio</h1>
+        <h1 className="title">{t("portfolio")}</h1>
         <Dropdown overlay={languageMenu}>
           <Typography.Link>
             <Space>
