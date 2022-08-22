@@ -10,14 +10,17 @@ export const Navbar = () => {
     {
       key: "1",
       label: "English",
+      value: "en",
     },
     {
       key: "2",
       label: "Francais",
+      value: "fr",
     },
     {
       key: "3",
       label: "Deutsch",
+      value: "de",
     },
   ];
   const languageMenu = (
@@ -34,14 +37,14 @@ export const Navbar = () => {
   const { t } = useTranslation();
 
   const linkItems = [
-    { label: t("link1"), key: "link1" }, // remember to pass the key prop
-    { label: t("link2"), key: "link2" }, // which is required
+    { label: t("link1"), key: "link1" }, // remember to pass the key prop which is required for mapping
+    { label: t("link2"), key: "link2" },
     {
-      label: "sub menu",
-      key: "submenu",
+      label: t("link3"),
+      key: "link3",
       children: [
-        { label: "sublink 1", key: "submenu-link-1" },
-        { label: "sublink 2", key: "submenu-link-2" },
+        { label: t("sublink1"), key: "sublink1" },
+        { label: t("sublink2"), key: "sublink2" },
       ],
     },
   ];
@@ -50,14 +53,16 @@ export const Navbar = () => {
     <div className="navbar-container">
       <div className="navTitle">
         <h1 className="title">{t("portfolio")}</h1>
-        <Dropdown overlay={languageMenu}>
-          <Typography.Link>
-            <Space>
-              {itemName}
-              <DownOutlined />
-            </Space>
-          </Typography.Link>
-        </Dropdown>
+        <div className="language-menu">
+          <Dropdown overlay={languageMenu}>
+            <Typography.Link>
+              <Space>
+                {itemName}
+                <DownOutlined />
+              </Space>
+            </Typography.Link>
+          </Dropdown>
+        </div>
       </div>
       <div className="navLink">
         <Menu mode="horizontal" items={linkItems} />

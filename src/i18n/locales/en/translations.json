@@ -1,3 +1,8 @@
 {
-  "portfolio": "My Portfolio"
+  "portfolio": "My Portfolio",
+  "link1": "About me",
+  "link2": "My Projects",
+  "link3": "Contact me",
+  "sublink1": "Email",
+  "sublink2": "Contact form"
 }
