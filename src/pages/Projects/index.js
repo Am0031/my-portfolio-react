@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ProjectCard } from "./Card";
+import { ProjectCard } from "../../components/Card";
 import { Badge } from "antd";
 
 export const Projects = () => {

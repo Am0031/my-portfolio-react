@@ -1,29 +1,27 @@
-import { useLazyQuery } from "@apollo/client";
-
-import { Navbar } from "../components/Navbar";
-import { Banner } from "../components/Banner";
-import { Projects } from "../components/Projects";
-import { Contact } from "../components/Contact";
-import { Resume } from "../components/Resume";
-import { Footer } from "../components/Footer";
-
-import { DASHBOARD_QUERY } from "../queries/projects";
-import { useEffect, useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import { About } from "./About";
+import { Projects } from "./Projects";
+import { Contact } from "./Contact";
+import { Resume } from "./Resume";
 
 export const Portfolio = () => {
-  const [section, setSection] = useState("about");
+  // const [section, setSection] = useState("about");
 
-  const handleSectionChange = (chosenSection) => {
-    setSection(chosenSection);
-  };
+  // const handleSectionChange = (chosenSection) => {
+  //   setSection(chosenSection);
+  // };
   return (
-    <div>
-      <Navbar handleSectionChange={handleSectionChange} />
-      {section === "about" && <Banner />}
-      {section === "projects" && <Projects />}
-      {section === "contact" && <Contact />}
-      {section === "resume" && <Resume />}
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<About />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/resume" element={<Resume />} />
+      {/* <div>
+        {section === "about" && <About />}
+        {section === "projects" && <Projects />}
+        {section === "contact" && <Contact />}
+        {section === "resume" && <Resume />}
+      </div> */}
+    </Routes>
   );
 };

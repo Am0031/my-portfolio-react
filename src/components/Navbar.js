@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Menu, Space, Typography } from "antd";
 import { useTranslation } from "react-i18next";
 
-export const Navbar = ({ handleSectionChange }) => {
+export const Navbar = () => {
   const [itemName, setItemName] = useState("English");
   const { i18n } = useTranslation();
+  const navigate = useNavigate();
 
   const changeLanguage = (key) => {
     i18n.changeLanguage(key);
@@ -43,17 +45,18 @@ export const Navbar = ({ handleSectionChange }) => {
   const { t } = useTranslation();
 
   const sections = [
-    { label: t("link1"), key: "about" }, // remember to pass the key prop which is required for mapping
-    { label: t("link2"), key: "projects" },
-    { label: t("link3"), key: "contact" },
-    { label: t("link4"), key: "resume" },
+    { label: t("link1"), key: "about", path: "/" }, // remember to pass the key prop which is required for mapping
+    { label: t("link2"), key: "projects", path: "/projects" },
+    { label: t("link3"), key: "contact", path: "/contact" },
+    { label: t("link4"), key: "resume", path: "/resume" },
   ];
 
   const [current, setCurrent] = useState("about");
 
   const onClickLinks = (e) => {
+    debugger;
     setCurrent(e.key);
-    handleSectionChange(e.key);
+    navigate(`${e.keyPath}`, { replace: true });
   };
 
   return (

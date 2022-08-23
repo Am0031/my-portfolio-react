@@ -1,6 +1,6 @@
 import wave from "./purpleWave.png";
 
-export const Banner = () => {
+export const About = () => {
   return (
     <div className="about-container main">
       <div className="about">
