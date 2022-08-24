@@ -2,8 +2,8 @@
   "projects": [
     {
       "id": 480789709,
-      "img": "480789709",
-      "imgUrl": "",
+      "img": "codeQuiz",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "code-quiz",
       "deployedUrl": "",
       "repoUrl": "https://github.com/Am0031/code-quiz",
@@ -13,6 +13,7 @@
     {
       "id": 502202388,
       "img": "mentorMe",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "coding-mentoring",
       "full_name": "Am0031/coding-mentoring",
       "deployedUrl": "",
@@ -23,6 +24,7 @@
     {
       "id": 480790619,
       "img": "dayPlanner",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "day-planner",
       "full_name": "Am0031/day-planner",
       "deployedUrl": "",
@@ -33,6 +35,7 @@
     {
       "id": 508769186,
       "img": "ecommerceBackend",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "ecommerce-backend",
       "full_name": "Am0031/ecommerce-backend",
       "deployedUrl": "",
@@ -43,6 +46,7 @@
     {
       "id": 504874098,
       "img": "employeeTracker",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "employee-tracker",
       "full_name": "Am0031/employee-tracker",
       "deployedUrl": "",
@@ -53,6 +57,8 @@
     {
       "id": 487288968,
       "img": "eventPlanning",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/2yTX8QP2/event-planning.png",
       "name": "event-planning",
       "full_name": "Am0031/event-planning",
       "deployedUrl": "",
@@ -63,6 +69,7 @@
     {
       "id": 505504203,
       "img": "hangmanInquirer",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "hangman-inquirer",
       "full_name": "Am0031/hangman-inquirer",
       "deployedUrl": "",
@@ -73,6 +80,7 @@
     {
       "id": 501359165,
       "img": "javascriptAlgorithms",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "javascript-algorithms",
       "full_name": "Am0031/javascript-algorithms",
       "deployedUrl": "",
@@ -83,6 +91,7 @@
     {
       "id": 503438382,
       "img": "noteTaker",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "note-taker",
       "full_name": "Am0031/note-taker",
       "deployedUrl": "",
@@ -93,6 +102,7 @@
     {
       "id": 480790347,
       "img": "passwordGenerator",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "password-generator",
       "full_name": "Am0031/password-generator",
       "deployedUrl": "",
@@ -103,6 +113,7 @@
     {
       "id": 478636117,
       "img": "cssPortfolio",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "portfolio",
       "full_name": "Am0031/portfolio",
       "deployedUrl": "",
@@ -113,6 +124,7 @@
     {
       "id": 521392855,
       "img": "reactPractice",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "react-practice",
       "full_name": "Am0031/react-practice",
       "deployedUrl": "",
@@ -123,6 +135,7 @@
     {
       "id": 497318303,
       "img": "readmeGenerator",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "readme-generator",
       "full_name": "Am0031/readme-generator",
       "deployedUrl": "",
@@ -133,6 +146,7 @@
     {
       "id": 520521445,
       "img": "socialNetworkApi",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "social-network-api",
       "full_name": "Am0031/social-network-api",
       "deployedUrl": "",
@@ -143,6 +157,7 @@
     {
       "id": 500061499,
       "img": "teamProfileGenerator",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "team-profile-generator",
       "full_name": "Am0031/team-profile-generator",
       "deployedUrl": "",
@@ -153,6 +168,7 @@
     {
       "id": 508780448,
       "img": "techBlog",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "tech-blog",
       "full_name": "Am0031/tech-blog",
       "deployedUrl": "",
@@ -163,6 +179,7 @@
     {
       "id": 524053156,
       "img": "textEditor",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "text-editor",
       "full_name": "Am0031/text-editor",
       "deployedUrl": "",
@@ -173,6 +190,7 @@
     {
       "id": 480790822,
       "img": "weatherDashboard",
+      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "weather-dashboard",
       "full_name": "Am0031/weather-dashboard",
       "deployedUrl": "",

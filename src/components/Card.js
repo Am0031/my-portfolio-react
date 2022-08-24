@@ -1,5 +1,3 @@
-import codeQuiz from "./img/codeQuiz.png";
-import dayPlanner from "./img/dayPlanner.png";
 import {
   GlobalOutlined,
   GithubOutlined,
@@ -10,20 +8,16 @@ const { Meta } = Card;
 
 export const ProjectCard = ({ data }) => {
   const deploy = `https://am0031.github.io/${data.name}/`;
-  const image = `http://localhost:3000/public/${data.img}.png`;
-  const pic = `http://localhost:3000/static/media/${image}.e3bcd26b755d152be1e5.png`;
+  const tags = data.tags.join(" - ");
+
   return (
     <Card
       style={{
         width: 300,
+        height: 330,
         margin: 10,
       }}
-      cover={
-        <img
-          alt={data.name}
-          src={`${process.env.PUBLIC_URL}/public/${data.img}.png`}
-        />
-      }
+      cover={<img alt={data.name} src={`${data.imgUrl}`} />}
       hoverable={true}
       actions={[
         <a href={deploy} target="_blank">
@@ -37,7 +31,7 @@ export const ProjectCard = ({ data }) => {
         </a>,
       ]}
     >
-      <Meta title={data.name} description={data.description} />
+      <Meta title={data.name} description={tags} />
     </Card>
   );
 };
