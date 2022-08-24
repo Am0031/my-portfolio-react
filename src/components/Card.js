@@ -1,3 +1,5 @@
+import codeQuiz from "./img/codeQuiz.png";
+import dayPlanner from "./img/dayPlanner.png";
 import {
   GlobalOutlined,
   GithubOutlined,
@@ -14,12 +16,7 @@ export const ProjectCard = ({ data }) => {
         width: 300,
         margin: 10,
       }}
-      cover={
-        <img
-          alt="example"
-          src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-        />
-      }
+      cover={<img alt="example" src={data.img} />}
       hoverable={true}
       actions={[
         <a href={deploy} target="_blank">
