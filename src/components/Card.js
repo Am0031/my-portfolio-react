@@ -10,13 +10,20 @@ const { Meta } = Card;
 
 export const ProjectCard = ({ data }) => {
   const deploy = `https://am0031.github.io/${data.name}/`;
+  const image = `http://localhost:3000/public/${data.img}.png`;
+  const pic = `http://localhost:3000/static/media/${image}.e3bcd26b755d152be1e5.png`;
   return (
     <Card
       style={{
         width: 300,
         margin: 10,
       }}
-      cover={<img alt="example" src={data.img} />}
+      cover={
+        <img
+          alt={data.name}
+          src={`${process.env.PUBLIC_URL}/public/${data.img}.png`}
+        />
+      }
       hoverable={true}
       actions={[
         <a href={deploy} target="_blank">

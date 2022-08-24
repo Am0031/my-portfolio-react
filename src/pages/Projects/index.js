@@ -11,12 +11,12 @@ export const Projects = () => {
       <div className="project-cards-title">
         <h1 className="title">My projects</h1>
         <Badge
-          count={show ? projectData.length : 0}
+          count={show ? projectData.projects.length : 0}
           style={{ backgroundColor: "#531dab" }}
         />
       </div>
       <div className="project-cards-container">
-        {projectData.map((item) => {
+        {projectData.projects.map((item) => {
           return <ProjectCard data={item} key={item.name} />;
         })}
       </div>
