@@ -13,7 +13,7 @@
     {
       "id": 502202388,
       "img": "mentorMe",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/mDT78056/coding-mentoring.png",
       "name": "coding-mentoring",
       "full_name": "Am0031/coding-mentoring",
       "deployedUrl": "",
@@ -24,7 +24,7 @@
     {
       "id": 480790619,
       "img": "dayPlanner",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/3JZ5qpNS/day-planner.png",
       "name": "day-planner",
       "full_name": "Am0031/day-planner",
       "deployedUrl": "",
@@ -35,7 +35,7 @@
     {
       "id": 508769186,
       "img": "ecommerceBackend",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/t4CQGTVX/ecommerce-backend.png",
       "name": "ecommerce-backend",
       "full_name": "Am0031/ecommerce-backend",
       "deployedUrl": "",
@@ -46,7 +46,7 @@
     {
       "id": 504874098,
       "img": "employeeTracker",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/s2dYZB9z/employee-tracker.png",
       "name": "employee-tracker",
       "full_name": "Am0031/employee-tracker",
       "deployedUrl": "",
@@ -57,8 +57,7 @@
     {
       "id": 487288968,
       "img": "eventPlanning",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
-      "imgUrl": "https://i.postimg.cc/2yTX8QP2/event-planning.png",
+      "imgUrl": "https://i.postimg.cc/Wp6HpVVt/event-planning.png",
       "name": "event-planning",
       "full_name": "Am0031/event-planning",
       "deployedUrl": "",
@@ -80,7 +79,7 @@
     {
       "id": 501359165,
       "img": "javascriptAlgorithms",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/FszVtXsM/javascript-algorithms.png",
       "name": "javascript-algorithms",
       "full_name": "Am0031/javascript-algorithms",
       "deployedUrl": "",
@@ -146,7 +145,7 @@
     {
       "id": 520521445,
       "img": "socialNetworkApi",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/Z5yPRPNj/social-network-api.png",
       "name": "social-network-api",
       "full_name": "Am0031/social-network-api",
       "deployedUrl": "",
@@ -190,7 +189,7 @@
     {
       "id": 480790822,
       "img": "weatherDashboard",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/LstzkHN1/weather-dashboard.png",
       "name": "weather-dashboard",
       "full_name": "Am0031/weather-dashboard",
       "deployedUrl": "",

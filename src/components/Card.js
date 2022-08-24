@@ -14,10 +14,12 @@ export const ProjectCard = ({ data }) => {
     <Card
       style={{
         width: 300,
-        height: 330,
+        height: 360,
         margin: 10,
       }}
-      cover={<img alt={data.name} src={`${data.imgUrl}`} />}
+      cover={
+        <img alt={data.name} src={`${data.imgUrl}`} style={{ height: 170 }} />
+      }
       hoverable={true}
       actions={[
         <a href={deploy} target="_blank">
@@ -31,7 +33,11 @@ export const ProjectCard = ({ data }) => {
         </a>,
       ]}
     >
-      <Meta title={data.name} description={tags} />
+      <Meta
+        title={data.name}
+        description={tags}
+        style={{ height: 100, padding: 10 }}
+      />
     </Card>
   );
 };

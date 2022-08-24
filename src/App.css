@@ -70,6 +70,13 @@ body {
   margin: 1rem;
 }
 
+.ant-card-body {
+  min-height: 140px;
+  max-height: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* Contact form section */
 .contact-title {
   text-align: center;
