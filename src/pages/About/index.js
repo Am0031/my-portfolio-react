@@ -1,11 +1,35 @@
-import wave from "./purpleWave.png";
+import { useTranslation } from "react-i18next";
+import aboutImage from "./aboutImage.png";
+import { Image, Typography } from "antd";
+const { Title } = Typography;
 
 export const About = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="about-container main">
       <div className="about">
         <div className="about-title">
-          <h1 className="title about-text">About me</h1>
+          <Title className="title about-text">{t("about-title")}</Title>
+        </div>
+        <div className="stackable">
+          <div className="about-me-container">
+            <div className="about-image-container stackable">
+              <Image className="about-image" width={250} src={aboutImage} />
+              <h2 className="quote about-text">{t("about-hi")}</h2>
+            </div>
+            <div className="about-text-container">
+              <h2 className="about-text">{t("about-text-1")}</h2>
+              <h2 className="about-text">{t("about-text-2")}</h2>
+            </div>
+            <div className="quote-1-container">
+              <h2 className="quote about-quote">{t("about-quote-1")}</h2>
+            </div>
+            <div className="quote-2-container">
+              <h2 className="quote about-quote">{t("about-quote-2")}</h2>
+            </div>
+          </div>
+          <div className="skills">Skills</div>
         </div>
       </div>
       <div className="skills"></div>

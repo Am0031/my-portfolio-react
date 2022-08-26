@@ -54,7 +54,6 @@ export const Navbar = () => {
   const [current, setCurrent] = useState("about");
 
   const onClickLinks = (e) => {
-    debugger;
     setCurrent(e.key);
     navigate(`${e.keyPath}`, { replace: true });
   };

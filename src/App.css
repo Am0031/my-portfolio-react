@@ -11,7 +11,12 @@ body {
   margin: 0;
 }
 .main {
-  min-height: 800px;
+  min-height: 90vh;
+}
+.stackable {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 /*Navbar section*/
@@ -19,7 +24,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 2px solid #531dab;
+  margin: 0;
 }
 .navTitle {
   display: flex;
@@ -45,7 +50,8 @@ body {
 
 /*About me section*/
 .about {
-  background-image: url(../other/img/purple-wave.png);
+  border-top: 2px solid #531dab;
+  background-image: url(../other/img/purplePaint.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 800px;
@@ -54,8 +60,15 @@ body {
 .about-text {
   text-align: center;
 }
+.about-image-container {
+  margin: 0 100px;
+}
 .about-image {
-  width: 100%;
+  border-radius: 50%;
+}
+.about-quote {
+  font-style: italic;
+  color: #531dab;
 }
 /* Project cards section - Repos from github*/
 .project-cards-container,
@@ -97,4 +110,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+@media screen and (max-width: 596px) {
+  .stackable {
+    display: flex;
+    flex-direction: column;
+  }
 }
