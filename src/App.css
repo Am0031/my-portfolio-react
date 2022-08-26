@@ -54,9 +54,16 @@ body {
   background-image: url(../other/img/purplePaint.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 800px;
+  min-height: 90vh;
 }
-
+.about-me-container {
+  width: 80%;
+  padding: 20px;
+}
+.about-hi {
+  width: 400px;
+  text-align: center;
+}
 .about-text {
   text-align: center;
 }
@@ -69,6 +76,24 @@ body {
 .about-quote {
   font-style: italic;
   color: #531dab;
+}
+.quote-1-container {
+  margin-top: 3rem;
+  margin-left: 8rem;
+}
+.quote-2-container {
+  text-align: right;
+}
+
+.badge-container {
+  max-height: 90vh;
+  width: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+.badge-box {
+  margin: 10px;
 }
 /* Project cards section - Repos from github*/
 .project-cards-container,

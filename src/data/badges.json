@@ -1,79 +1,77 @@
-{
-  "skills": [
-    {
-      "name": "html5",
-      "imgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
-      "href": "https://www.w3.org/html/"
-    },
-    {
-      "name": "css3",
-      "imgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
-      "href": "https://www.w3schools.com/css/"
-    },
-    {
-      "name": "bootstrap",
-      "imgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg",
-      "href": "https://getbootstrap.com"
-    },
-    {
-      "name": "javascript",
-      "imgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
-      "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-    },
-    {
-      "name": "jquery",
-      "imgUrl": "https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg",
-      "href": "https://jquery.com"
-    },
-    {
-      "name": "handlebars",
-      "imgUrl": "https://www.vectorlogo.zone/logos/handlebarsjs/handlebarsjs-icon.svg",
-      "href": "https://handlebarsjs.com"
-    },
-    {
-      "name": "react",
-      "imgUrl": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
-      "href": "https://reactjs.org/"
-    },
-    {
-      "name": "express",
-      "imgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
-      "href": "https://expressjs.com"
-    },
-    {
-      "name": "node",
-      "imgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
-      "href": "https://nodejs.org"
-    },
-    {
-      "name": "mysql",
-      "imgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      "href": "https://www.mysql.com/"
-    },
-    {
-      "name": "sequelize",
-      "imgUrl": "https://www.vectorlogo.zone/logos/sequelizejs/sequelizejs-icon.svg",
-      "href": "https://sequelize.org"
-    },
-    {
-      "name": "mongodb",
-      "imgUrl": "https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg",
-      "href": "https://www.mongodb.com"
-    },
-    {
-      "name": "graphql",
-      "imgUrl": "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
-      "href": "https://graphql.org"
-    }
-    {
-      "name": "jest",
-      "imgUrl": "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg",
-      "href": "https://jestjs.io"
-    },
-    {
-      "name": "postman",
-      "imgUrl": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
-      "href": "https://postman.com"
-    }
-  ]
-}
+[
+  {
+    "name": "html5",
+    "imgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
+    "href": "https://www.w3.org/html/"
+  },
+  {
+    "name": "css3",
+    "imgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+    "href": "https://www.w3schools.com/css/"
+  },
+  {
+    "name": "bootstrap",
+    "imgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg",
+    "href": "https://getbootstrap.com"
+  },
+  {
+    "name": "javascript",
+    "imgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  },
+  {
+    "name": "jquery",
+    "imgUrl": "https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg",
+    "href": "https://jquery.com"
+  },
+  {
+    "name": "handlebars",
+    "imgUrl": "https://www.vectorlogo.zone/logos/handlebarsjs/handlebarsjs-icon.svg",
+    "href": "https://handlebarsjs.com"
+  },
+  {
+    "name": "react",
+    "imgUrl": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+    "href": "https://reactjs.org/"
+  },
+  {
+    "name": "express",
+    "imgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
+    "href": "https://expressjs.com"
+  },
+  {
+    "name": "node",
+    "imgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+    "href": "https://nodejs.org"
+  },
+  {
+    "name": "mysql",
+    "imgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+    "href": "https://www.mysql.com/"
+  },
+  {
+    "name": "sequelize",
+    "imgUrl": "https://www.vectorlogo.zone/logos/sequelizejs/sequelizejs-icon.svg",
+    "href": "https://sequelize.org"
+  },
+  {
+    "name": "mongodb",
+    "imgUrl": "https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg",
+    "href": "https://www.mongodb.com"
+  },
+  {
+    "name": "graphql",
+    "imgUrl": "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
+    "href": "https://graphql.org"
+  },
+  {
+    "name": "jest",
+    "imgUrl": "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg",
+    "href": "https://jestjs.io"
+  },
+  {
+    "name": "postman",
+    "imgUrl": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+    "href": "https://postman.com"
+  }
+]

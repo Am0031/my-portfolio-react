@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
 import aboutImage from "./aboutImage.png";
+import badgeData from "../../data/badges.json";
+import { BadgeList } from "../../components/BadgeList";
 import { Image, Typography } from "antd";
 const { Title } = Typography;
 
@@ -12,15 +14,16 @@ export const About = () => {
         <div className="about-title">
           <Title className="title about-text">{t("about-title")}</Title>
         </div>
-        <div className="stackable">
+        <div className="about-content stackable">
           <div className="about-me-container">
             <div className="about-image-container stackable">
               <Image className="about-image" width={250} src={aboutImage} />
-              <h2 className="quote about-text">{t("about-hi")}</h2>
+              <h2 className="about-hi">{t("about-hi")}</h2>
             </div>
             <div className="about-text-container">
-              <h2 className="about-text">{t("about-text-1")}</h2>
-              <h2 className="about-text">{t("about-text-2")}</h2>
+              <h3 className="about-text">{t("about-text-1")}</h3>
+              <h3 className="about-text">{t("about-text-2")}</h3>
+              <h3 className="about-text">{t("about-text-3")}</h3>
             </div>
             <div className="quote-1-container">
               <h2 className="quote about-quote">{t("about-quote-1")}</h2>
@@ -29,10 +32,10 @@ export const About = () => {
               <h2 className="quote about-quote">{t("about-quote-2")}</h2>
             </div>
           </div>
-          <div className="skills">Skills</div>
+
+          <BadgeList />
         </div>
       </div>
-      <div className="skills"></div>
     </div>
   );
 };
