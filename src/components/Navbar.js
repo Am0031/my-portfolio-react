@@ -1,11 +1,12 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { DownOutlined } from "@ant-design/icons";
-import { Dropdown, Menu, Space, Typography } from "antd";
+import { Dropdown, Menu, Space, Typography, Image } from "antd";
 import { useTranslation } from "react-i18next";
 
 export const Navbar = () => {
   const [itemName, setItemName] = useState("English");
+  const [itemValue, setItemValue] = useState("en");
   const { i18n } = useTranslation();
   const navigate = useNavigate();
 
@@ -37,6 +38,7 @@ export const Navbar = () => {
       items={languageItems}
       onSelect={({ key }) => {
         setItemName(languageItems[key - 1].label);
+        setItemValue(languageItems[key - 1].value);
         changeLanguage(languageItems[key - 1].value);
       }}
     />
@@ -62,6 +64,8 @@ export const Navbar = () => {
     <div className="navbar-container">
       <div className="navTitle">
         <h1 className="title">{t("portfolio")}</h1>
+        <Image className="flag-image" width={0} src={`/${itemValue}.png`} />
+
         <div className="language-menu">
           <Dropdown overlay={languageMenu}>
             <Typography.Link>

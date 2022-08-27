@@ -1,6 +1,5 @@
 import { send } from "emailjs-com";
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
 import { Button, Form, Input } from "antd";
 const { TextArea } = Input;
 
