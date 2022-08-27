@@ -1,9 +1,12 @@
 import { send } from "emailjs-com";
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import { Button, Checkbox, Form, Input } from "antd";
+import { Button, Form, Input } from "antd";
 const { TextArea } = Input;
 
 export const Contact = () => {
+  const { t } = useTranslation();
+
   const onFinish = (values) => {
     console.log("Success:", values);
     send("service_zhpu8is", "template_vd21ue1", values, "cIRPZQpttqS3shP03")
@@ -21,7 +24,8 @@ export const Contact = () => {
 
   return (
     <div className="contact-container main">
-      <h1 className="title contact-title">Contact me</h1>
+      <h1 className="title contact-title">{t("contact-title")}</h1>
+      <h2 className="contact-text">{t("contact-text")}</h2>
       <div className="form-control">
         <Form
           name="basic"
@@ -39,48 +43,48 @@ export const Contact = () => {
           autoComplete="off"
         >
           <Form.Item
-            label="Full Name"
+            label={t("contact-field-name")}
             name="name"
             rules={[
               {
                 required: true,
-                message: "Please enter your name!",
+                message: `${t("contact-validate-name")}`,
               },
             ]}
           >
             <Input />
           </Form.Item>
           <Form.Item
-            label="email"
+            label={t("contact-field-email")}
             name="email"
             rules={[
               {
                 required: true,
-                message: "Please enter your email!",
+                message: `${t("contact-validate-email")}`,
               },
             ]}
           >
             <Input />
           </Form.Item>
           <Form.Item
-            label="Subject"
+            label={t("contact-field-subject")}
             name="subject"
             rules={[
               {
                 required: true,
-                message: "Please add a subject!",
+                message: `${t("contact-validate-subject")}`,
               },
             ]}
           >
             <Input />
           </Form.Item>
           <Form.Item
-            label="Message"
+            label={t("contact-field-message")}
             name="message"
             rules={[
               {
                 required: true,
-                message: "Please type a message!",
+                message: `${t("contact-validate-message")}`,
               },
             ]}
           >
@@ -96,7 +100,7 @@ export const Contact = () => {
               style={{ backgroundColor: "#531dab", color: "#fff" }}
               htmlType="submit"
             >
-              Send
+              {t("contact-form-submit")}
             </Button>
           </Form.Item>
         </Form>

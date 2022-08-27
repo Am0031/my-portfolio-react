@@ -6,7 +6,6 @@ import { Badge } from "antd";
 export const Projects = () => {
   const { t } = useTranslation();
   const show = true;
-  const githubUser = "Am0031";
 
   return (
     <div className="main projects-container">
