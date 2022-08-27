@@ -17,7 +17,9 @@ export const Resume = () => {
           Download File
         </Button>
       </div>
-      <div>PDF File goes here</div>
+      <div>
+        <img alt="resume" src={`/resume.png`} />
+      </div>
     </div>
   );
 };

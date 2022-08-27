@@ -9,8 +9,8 @@ export const About = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="about-container main">
-      <div className="about">
+    <div className="about-container">
+      <div className="about main">
         <div className="about-title">
           <Title className="title about-text">{t("about-title")}</Title>
         </div>

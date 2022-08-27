@@ -47,10 +47,12 @@ body {
   padding: 0 10px;
   font-weight: bold;
 }
+.main {
+  border-top: 2px solid #531dab;
+}
 
 /*About me section*/
 .about {
-  border-top: 2px solid #531dab;
   background-image: url(../other/img/purplePaint.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,6 +123,13 @@ body {
 }
 .form-control {
   margin: 0 100px;
+  align-items: center;
+}
+
+/*Resume section*/
+.resume-container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
