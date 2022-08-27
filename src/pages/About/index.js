@@ -24,6 +24,7 @@ export const About = () => {
               <h3 className="about-text">{t("about-text-1")}</h3>
               <h3 className="about-text">{t("about-text-2")}</h3>
               <h3 className="about-text">{t("about-text-3")}</h3>
+              <h3 className="about-text">{t("about-text-4")}</h3>
             </div>
             <div className="quote-1-container">
               <h2 className="quote about-quote">{t("about-quote-1")}</h2>
