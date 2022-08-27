@@ -31,11 +31,14 @@ body {
   flex-direction: row;
   align-items: center;
 }
+.portfolio-title {
+  width: 200px;
+}
 
 .language-menu {
   display: flex;
   flex-direction: column;
-  margin: 0 50px;
+  margin: 10px;
 }
 
 .navLink {
@@ -93,6 +96,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .badge-container {
   display: flex;

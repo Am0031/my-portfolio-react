@@ -10,13 +10,8 @@ export const BadgeList = () => {
       <div className="badge-container">
         {badgeData.map((item) => {
           return (
-            <div>
-              <a
-                className="badge-box"
-                href={item.href}
-                alt={item.name}
-                key={item.name}
-              >
+            <div className="badge-box" key={item.name}>
+              <a href={item.href} alt={item.name} key={item.name}>
                 <Avatar
                   className="badge-logo"
                   shape={"square"}

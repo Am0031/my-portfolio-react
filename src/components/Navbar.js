@@ -63,8 +63,8 @@ export const Navbar = () => {
   return (
     <div className="navbar-container">
       <div className="navTitle">
-        <h1 className="title">{t("portfolio")}</h1>
-        <Image className="flag-image" width={0} src={`/${itemValue}.png`} />
+        <h1 className="title portfolio-title">{t("portfolio")}</h1>
+        <Image className="flag-image" width={30} src={`/${itemValue}.png`} />
 
         <div className="language-menu">
           <Dropdown overlay={languageMenu}>

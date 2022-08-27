@@ -10,11 +10,11 @@ export const About = () => {
   return (
     <div className="about-container">
       <div className="about main">
-        <div className="about-title">
-          <Title className="title about-text">{t("about-title")}</Title>
-        </div>
         <div className="about-content stackable">
           <div className="about-me-container">
+            <div className="about-title">
+              <Title className="title about-text">{t("about-title")}</Title>
+            </div>
             <div className="about-image-container stackable">
               <Image className="about-image" width={250} src={aboutImage} />
               <h2 className="about-hi">{t("about-hi")}</h2>
