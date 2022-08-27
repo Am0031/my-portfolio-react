@@ -10,15 +10,15 @@ export const Resume = () => {
       <h1 className="title resume-title">My CV</h1>
       <div className="resume-control">
         <Button
-          style={{ backgroundColor: "#531dab", color: "#fff" }}
-          htmlType="click"
-          onClick={onClickCv}
+          style={{ backgroundColor: "#531dab", color: "#fff", margin: 10 }}
         >
-          Download File
+          <a href={`/resume.pdf`} target="_blank" rel="noreferrer">
+            Download Pdf
+          </a>
         </Button>
       </div>
       <div>
-        <img alt="resume" src={`/resume.png`} />
+        <img alt="resume" src={`/resume.png`} style={{ margin: 10 }} />
       </div>
     </div>
   );
