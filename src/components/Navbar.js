@@ -86,7 +86,7 @@ export const Navbar = () => {
         </div>
       </div>
       <div className="navLink">
-        {viewport > 500 && (
+        {viewport > 420 && (
           <Menu
             onClick={onClickLinks}
             selectedKeys={[current]}
@@ -94,7 +94,7 @@ export const Navbar = () => {
             items={sections}
           />
         )}
-        {viewport < 500 && (
+        {viewport < 420 && (
           <Menu
             onClick={onClickLinks}
             selectedKeys={[current]}
