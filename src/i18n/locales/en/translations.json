@@ -23,5 +23,7 @@
   "contact-validate-name": "Please enter your name!",
   "contact-validate-email": "Please enter your email!",
   "contact-validate-subject": "Please add a subject!",
-  "contact-validate-message": "Please type a message!"
+  "contact-validate-message": "Please type a message!",
+  "resume-title": "My CV (english)",
+  "download-resume": "Download PDF"
 }

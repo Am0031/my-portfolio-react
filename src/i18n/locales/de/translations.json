@@ -23,5 +23,7 @@
   "contact-validate-name": "Bitte geben Sie Ihren Namen ein!",
   "contact-validate-email": "Bitte geben Sie ihre E-Mail-Adresse ein!",
   "contact-validate-subject": "Bitte fügen Sie einen Betreff hinzu!",
-  "contact-validate-message": "Bitte geben Sie eine Nachricht ein!"
+  "contact-validate-message": "Bitte geben Sie eine Nachricht ein!",
+  "resume-title": "Mein Lebenslauf (auf englisch)",
+  "download-resume": "PDF Herunterladen"
 }

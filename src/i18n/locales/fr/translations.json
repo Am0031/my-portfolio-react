@@ -23,5 +23,7 @@
   "contact-validate-name": "Merci d'indiquer votre nom!",
   "contact-validate-email": "Merci d'indiquer votre email!",
   "contact-validate-subject": "Merci d'ajouter un sujet!",
-  "contact-validate-message": "Merci d'ajouer un message!"
+  "contact-validate-message": "Merci d'ajouer un message!",
+  "resume-title": "Mon CV (en anglais)",
+  "download-resume": "Télécharger le PDF"
 }
