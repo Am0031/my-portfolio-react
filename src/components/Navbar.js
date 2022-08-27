@@ -31,6 +31,7 @@ export const Navbar = () => {
       value: "de",
     },
   ];
+
   const languageMenu = (
     <Menu
       selectable
@@ -64,10 +65,15 @@ export const Navbar = () => {
     <div className="navbar-container">
       <div className="navTitle">
         <h1 className="title portfolio-title">{t("portfolio")}</h1>
-        <Image className="flag-image" width={30} src={`/${itemValue}.png`} />
+        <Image
+          className="flag-image"
+          width={30}
+          src={`/${itemValue}.png`}
+          preview={false}
+        />
 
         <div className="language-menu">
-          <Dropdown overlay={languageMenu}>
+          <Dropdown overlay={languageMenu} arrow={false}>
             <Typography.Link>
               <Space>
                 {itemName}

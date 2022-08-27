@@ -15,8 +15,13 @@ export const Resume = () => {
           </a>
         </Button>
       </div>
-      <div>
-        <img alt="resume" src={`/resume.png`} style={{ margin: 10 }} />
+      <div className="resume-box">
+        <img
+          className="resume-img"
+          alt="resume"
+          src={`/resume.png`}
+          style={{ margin: 10 }}
+        />
       </div>
     </div>
   );
