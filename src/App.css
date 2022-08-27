@@ -162,7 +162,7 @@ body {
   align-content: center;
 }
 .resume-img {
-  width: 800px;
+  max-width: 800px;
 }
 .resume-title {
   text-align: center;
@@ -239,10 +239,7 @@ body {
     padding: 10px;
   }
   .contact-text {
-    margin: 10pxpx;
-  }
-  .resume-img {
-    width: 550px;
+    margin: 10px;
   }
 }
 
@@ -270,9 +267,5 @@ body {
   }
   .contact-text {
     margin: 10px;
-  }
-  .resume-img {
-    align-content: center;
-    width: 350px;
   }
 }

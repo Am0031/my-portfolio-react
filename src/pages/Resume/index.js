@@ -1,7 +1,9 @@
 import { Button } from "antd";
+import useWindowDimensions from "../../utils/windowSize";
 import { useTranslation } from "react-i18next";
 
 export const Resume = () => {
+  const { height, width } = useWindowDimensions();
   const { t } = useTranslation();
   return (
     <div className="resume-container main">
@@ -20,7 +22,7 @@ export const Resume = () => {
           className="resume-img"
           alt="resume"
           src={`/resume.png`}
-          style={{ margin: 10 }}
+          style={{ width: width, margin: 10 }}
         />
       </div>
     </div>

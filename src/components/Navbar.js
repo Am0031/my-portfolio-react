@@ -1,4 +1,5 @@
 import { useState } from "react";
+import useWindowDimensions from "../utils/windowSize";
 import { useNavigate } from "react-router-dom";
 import { DownOutlined, MenuOutlined } from "@ant-design/icons";
 import { Dropdown, Menu, Space, Typography, Image } from "antd";
@@ -10,7 +11,7 @@ export const Navbar = () => {
   const { i18n } = useTranslation();
   const navigate = useNavigate();
 
-  const viewport = window.innerWidth;
+  const { height, width } = useWindowDimensions();
 
   const changeLanguage = (key) => {
     i18n.changeLanguage(key);
@@ -86,7 +87,7 @@ export const Navbar = () => {
         </div>
       </div>
       <div className="navLink">
-        {viewport > 420 && (
+        {width > 420 && (
           <Menu
             onClick={onClickLinks}
             selectedKeys={[current]}
@@ -95,12 +96,12 @@ export const Navbar = () => {
             overflowedIndicator={<MenuOutlined />}
           />
         )}
-        {viewport < 420 && (
+        {width < 420 && (
           <Menu
             onClick={onClickLinks}
             selectedKeys={[current]}
             items={sections}
-            style={{ width: 420, textAlign: "center" }}
+            style={{ width: width, textAlign: "center" }}
           />
         )}
       </div>
