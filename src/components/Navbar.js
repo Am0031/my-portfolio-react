@@ -10,6 +10,8 @@ export const Navbar = () => {
   const { i18n } = useTranslation();
   const navigate = useNavigate();
 
+  const viewport = window.innerWidth;
+
   const changeLanguage = (key) => {
     i18n.changeLanguage(key);
   };
@@ -84,12 +86,21 @@ export const Navbar = () => {
         </div>
       </div>
       <div className="navLink">
-        <Menu
-          onClick={onClickLinks}
-          selectedKeys={[current]}
-          mode="horizontal"
-          items={sections}
-        />
+        {viewport > 500 && (
+          <Menu
+            onClick={onClickLinks}
+            selectedKeys={[current]}
+            mode="horizontal"
+            items={sections}
+          />
+        )}
+        {viewport < 500 && (
+          <Menu
+            onClick={onClickLinks}
+            selectedKeys={[current]}
+            items={sections}
+          />
+        )}
       </div>
     </div>
   );
