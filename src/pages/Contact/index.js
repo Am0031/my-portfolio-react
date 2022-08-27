@@ -1,9 +1,18 @@
+import { send } from "emailjs-com";
+import { useState } from "react";
 import { Button, Checkbox, Form, Input } from "antd";
 const { TextArea } = Input;
 
 export const Contact = () => {
   const onFinish = (values) => {
     console.log("Success:", values);
+    send("service_zhpu8is", "template_vd21ue1", values, "cIRPZQpttqS3shP03")
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+      })
+      .catch((err) => {
+        console.log("FAILED...", err);
+      });
   };
 
   const onFinishFailed = (errorInfo) => {
@@ -31,11 +40,23 @@ export const Contact = () => {
         >
           <Form.Item
             label="Full Name"
-            name="fullname"
+            name="name"
             rules={[
               {
                 required: true,
-                message: "Please input your full name!",
+                message: "Please enter your name!",
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+          <Form.Item
+            label="email"
+            name="email"
+            rules={[
+              {
+                required: true,
+                message: "Please enter your email!",
               },
             ]}
           >
@@ -47,7 +68,7 @@ export const Contact = () => {
             rules={[
               {
                 required: true,
-                message: "Please input a subject!",
+                message: "Please add a subject!",
               },
             ]}
           >
@@ -59,21 +80,11 @@ export const Contact = () => {
             rules={[
               {
                 required: true,
-                message: "Please input your message here!",
+                message: "Please type a message!",
               },
             ]}
           >
             <TextArea rows={4} />
-          </Form.Item>
-          <Form.Item
-            name="email"
-            valuePropName="checked"
-            wrapperCol={{
-              offset: 4,
-              span: 16,
-            }}
-          >
-            <Checkbox>Email me a copy</Checkbox>
           </Form.Item>
           <Form.Item
             wrapperCol={{
