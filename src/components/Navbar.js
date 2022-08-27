@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { DownOutlined } from "@ant-design/icons";
+import { DownOutlined, MenuOutlined } from "@ant-design/icons";
 import { Dropdown, Menu, Space, Typography, Image } from "antd";
 import { useTranslation } from "react-i18next";
 
@@ -92,6 +92,7 @@ export const Navbar = () => {
             selectedKeys={[current]}
             mode="horizontal"
             items={sections}
+            overflowedIndicator={<MenuOutlined />}
           />
         )}
         {viewport < 420 && (
@@ -99,6 +100,7 @@ export const Navbar = () => {
             onClick={onClickLinks}
             selectedKeys={[current]}
             items={sections}
+            style={{ width: 420, textAlign: "center" }}
           />
         )}
       </div>
