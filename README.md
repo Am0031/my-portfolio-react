@@ -8,7 +8,7 @@ This application presents a polished and responsive portfolio using ReactJs.
 
 ## Project Links
 
-Deployed page : [https://am0031.github.io/portfolio/](https://am0031.github.io/portfolio/)
+Deployed page : [https://am0031.github.io/my-portfolio-react](https://am0031.github.io/my-portfolio-react)
 
 Github repo : [https://github.com/Am0031/my-portfolio-react](https://github.com/Am0031/my-portfolio-react)
 
