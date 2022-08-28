@@ -150,7 +150,7 @@ export const projects = [
   },
   {
     id: 521392855,
-    mg: reactPractice,
+    img: reactPractice,
     imgUrl: "https://i.postimg.cc/hGS4tgxw/react-Practice.png",
     name: "react-practice",
     full_name: "Am0031/react-practice",
