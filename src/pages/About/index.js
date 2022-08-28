@@ -10,7 +10,7 @@ export const About = () => {
   return (
     <div className="about-container">
       <div className="about main">
-        <div className="about-content stackable">
+        <div className="about-content">
           <div className="about-me-container">
             <div className="about-title">
               <Title className="title about-text">{t("about-title")}</Title>
@@ -32,8 +32,6 @@ export const About = () => {
               <h2 className="quote about-quote">{t("about-quote-2")}</h2>
             </div>
           </div>
-
-          <BadgeList />
         </div>
       </div>
     </div>

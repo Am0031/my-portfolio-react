@@ -66,13 +66,14 @@ body {
   min-height: 90vh;
 }
 .about-me-container {
-  width: 80%;
+  width: 100%;
   padding: 20px;
 }
 .about-hi {
   width: 400px;
   text-align: center;
   color: #531dab;
+  padding: 2rem;
 }
 .about-text {
   text-align: center;
@@ -90,31 +91,13 @@ body {
   color: #531dab;
 }
 .quote-1-container {
-  margin-top: 3rem;
-  margin-left: 8rem;
+  margin: 3rem 0 0 8rem;
 }
 .quote-2-container {
+  margin: 2rem 4rem 0 0;
   text-align: right;
 }
 
-.skills-container {
-  max-height: 700px;
-  width: 20%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-.badge-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.badge-box {
-  margin: 10px;
-}
 /* Project cards section - Repos from github*/
 .project-cards-container,
 .project-cards-title {
@@ -149,9 +132,29 @@ body {
 }
 
 /*Resume section*/
-.resume-container {
+.skills-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.badge-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.badge-box {
+  margin: 10px;
+}
+.resume-container,
+.resume-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 .resume-box {
@@ -206,9 +209,12 @@ body {
     width: 100%;
     padding: 10px;
   }
+  .about-text-container {
+    margin-bottom: 50px;
+  }
   .quote-1-container,
   .quote-2-container {
-    margin-top: 50px;
+    margin: 50px;
     text-align: center;
   }
   .contact-text {

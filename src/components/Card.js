@@ -24,8 +24,8 @@ export const ProjectCard = ({ data }) => {
         <a href={data.deployedUrl} target="_blank" rel="noreferrer">
           <GlobalOutlined key="deploy" href={data.deployedUrl} />
         </a>,
-        <a href={data.html_url} target="_blank" rel="noreferrer">
-          <GithubOutlined key="repo" href={data.html_url} />
+        <a href={data.repoUrl} target="_blank" rel="noreferrer">
+          <GithubOutlined key="repo" href={data.repoUrl} />
         </a>,
         <a
           href={`mailto:amelie.pira@gmail.com?subject=About your project ${data.name}`}
