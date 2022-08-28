@@ -4,10 +4,13 @@ import { useNavigate } from "react-router-dom";
 import { DownOutlined, MenuOutlined } from "@ant-design/icons";
 import { Dropdown, Menu, Space, Typography, Image } from "antd";
 import { useTranslation } from "react-i18next";
+import enFlag from "../images/en.png";
+import frFlag from "../images/fr.png";
+import deFlag from "../images/de.png";
 
 export const Navbar = () => {
   const [itemName, setItemName] = useState("English");
-  const [itemValue, setItemValue] = useState("en");
+  const [flagSrc, setFlagSrc] = useState(enFlag);
   const { i18n } = useTranslation();
   const navigate = useNavigate();
 
@@ -22,19 +25,19 @@ export const Navbar = () => {
       key: "1",
       label: "English",
       value: "en",
-      imgUrl: "https://i.postimg.cc/KYfmwVK2/en.png",
+      imgSrc: enFlag,
     },
     {
       key: "2",
       label: "Francais",
       value: "fr",
-      imgUrl: "https://i.postimg.cc/fTPtgVGK/fr.png",
+      imgSrc: frFlag,
     },
     {
       key: "3",
       label: "Deutsch",
       value: "de",
-      imgUrl: "https://i.postimg.cc/DwCCNP2N/de.png",
+      imgSrc: deFlag,
     },
   ];
 
@@ -45,7 +48,7 @@ export const Navbar = () => {
       items={languageItems}
       onSelect={({ key }) => {
         setItemName(languageItems[key - 1].label);
-        setItemValue(languageItems[key - 1].imgUrl);
+        setFlagSrc(languageItems[key - 1].imgSrc);
         changeLanguage(languageItems[key - 1].value);
       }}
     />
@@ -74,7 +77,7 @@ export const Navbar = () => {
         <Image
           className="flag-image"
           width={30}
-          src={itemValue}
+          src={flagSrc}
           preview={false}
         />
 
