@@ -45,6 +45,16 @@
     "href": "https://nodejs.org"
   },
   {
+    "name": "inquirer",
+    "imgUrl": "https://raw.githubusercontent.com/SBoudrias/Inquirer.js/master/assets/inquirer_readme.svg?sanitize=true",
+    "href": "https://www.npmjs.com/package/inquirer"
+  },
+  {
+    "name": "restApi",
+    "imgUrl": "https://gitlab.com/uploads/-/system/project/avatar/9910889/875327.png?w=248&fit=crop&auto=format",
+    "href": "https://www.codecademy.com/article/what-is-rest"
+  },
+  {
     "name": "mysql",
     "imgUrl": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
     "href": "https://www.mysql.com/"
@@ -56,7 +66,7 @@
   },
   {
     "name": "mongodb",
-    "imgUrl": "https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg",
+    "imgUrl": "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
     "href": "https://www.mongodb.com"
   },
   {
@@ -73,5 +83,25 @@
     "name": "postman",
     "imgUrl": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
     "href": "https://postman.com"
+  },
+  {
+    "name": "tdd",
+    "imgUrl": "https://i0.wp.com/www.ogmcs.com/wp-content/uploads/2019/03/tdd-banner.jpg?fit=696%2C393?w=248&fit=crop&auto=format",
+    "href": "https://www.guru99.com/test-driven-development.html"
+  },
+  {
+    "name": "oop",
+    "imgUrl": "https://miro.medium.com/max/300/0*goJuBKoyL-zZX4RB.png?w=248&fit=crop&auto=format",
+    "href": "https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP#:~:text=Object%2Doriented%20programming%20(OOP)%20is%20a%20computer%20programming%20model,has%20unique%20attributes%20and%20behavior."
+  },
+  {
+    "name": "mvc",
+    "imgUrl": "https://cdn2.iconfinder.com/data/icons/programming-76/512/MVC-model-view-controller-512.png?w=248&fit=crop&auto=format",
+    "href": "https://developer.mozilla.org/en-US/docs/Glossary/MVC"
+  },
+  {
+    "name": "dom",
+    "imgUrl": "https://static.thenounproject.com/png/1320675-200.png?w=248&fit=crop&auto=format",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
   }
 ]
