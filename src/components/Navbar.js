@@ -11,7 +11,7 @@ export const Navbar = () => {
   const { i18n } = useTranslation();
   const navigate = useNavigate();
 
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
 
   const changeLanguage = (key) => {
     i18n.changeLanguage(key);
