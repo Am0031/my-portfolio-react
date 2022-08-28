@@ -1,18 +1,28 @@
-import { useLazyQuery } from "@apollo/client";
-
-import { Navbar } from "../components/Navbar";
-import { Banner } from "../components/Banner";
-import { Projects } from "../components/Projects";
-
-import { DASHBOARD_QUERY } from "../queries/projects";
-import { useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
+import { About } from "./About";
+import { Projects } from "./Projects";
+import { Contact } from "./Contact";
+import { Resume } from "./Resume";
 
 export const Portfolio = () => {
+  // const [section, setSection] = useState("about");
+
+  // const handleSectionChange = (chosenSection) => {
+  //   setSection(chosenSection);
+  // };
   return (
-    <div>
-      <Navbar />
-      <Banner />
-      <Projects title="My projects" />
-    </div>
+    <Routes>
+      <Route path="/" element={<About />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/resume" element={<Resume />} />
+      {/* <div>
+        {section === "about" && <About />}
+        {section === "projects" && <Projects />}
+        {section === "contact" && <Contact />}
+        {section === "resume" && <Resume />}
+      </div> */}
+    </Routes>
   );
 };

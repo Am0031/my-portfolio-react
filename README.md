@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![MIT](https://img.shields.io/badge/License-MIT-blue)
 
-## Available Scripts
+## Summary of the project
 
-In the project directory, you can run:
+This application presents a polished and responsive portfolio using ReactJs.
 
-### `npm start`
+## Project Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Deployed page : [https://am0031.github.io/portfolio/](https://am0031.github.io/portfolio/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Github repo : [https://github.com/Am0031/my-portfolio-react](https://github.com/Am0031/my-portfolio-react)
 
-### `npm test`
+## Table of content
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Why a Portfolio](#why-a-portfolio)
+- [Screenshots of the application](#screenshots-of-the-application)
+- [Technologies](#technologies)
+- [Features](#features)
+- [Contact me](#contact-me)
 
-### `npm run build`
+## Why a Portfolio
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A portfolio is an important tool which can be very helpful when looking for work as a web developer. This is a great platform to showcase the different projects worked on and give access to the code to recruiters so they can have a feel of the person's coding style.
+This can also help developers looking to set themselves up as freelance developers. Their potential clients can visit this page and have a feel of the styles and functionalities that the person can build for them.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This [article](https://www.codementor.io/learn-programming/12-important-things-to-include-in-web-dev-portfolios#:~:text=At%20the%20end%20of%20the,with%20bullet%20points%20would%20allow.) provides good tips on what's important to include in a web developer's portfolio.
+There are also many websites with examples of portfolios, the two suggestions below are only provided as a starting point:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Code camp website](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
+- [Alvarotrigo website](https://alvarotrigo.com/blog/web-developer-portfolio-examples/)
 
-### `npm run eject`
+## Screenshots of the application
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Desktop view of the landing page / About me page:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![deployed portfolio](/other/screenshots/desktop-about.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+More desktop views:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<details>
+<summary>Desktop - Projects page</summary>
 
-## Learn More
+![Desktop - Projects page](/other/screenshots/desktop-projects.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+</details>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<details>
+<summary>Desktop - Contact me page</summary>
 
-### Code Splitting
+![Desktop - Contact me page](/other/screenshots/desktop-contact.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+</details>
 
-### Analyzing the Bundle Size
+<details>
+<summary>Desktop - CV page</summary>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Desktop - CV page](/other/screenshots/desktop-resume.png)
 
-### Making a Progressive Web App
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Mobile views:
 
-### Advanced Configuration
+<details>
+<summary>Mobile - About me page</summary>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Mobile - About me page](/other/screenshots/mobile-about.png)
 
-### Deployment
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<details>
+<summary>Mobile - Projects page</summary>
 
-### `npm run build` fails to minify
+![Mobile - Projects page](/other/screenshots/mobile-projects.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</details>
+
+<details>
+<summary>Mobile - Contact me page</summary>
+
+![Mobile - Contact me page](/other/screenshots/mobile-contact.png)
+
+</details>
+
+<details>
+<summary>Mobile - CV page</summary>
+
+![Mobile - CV page](/other/screenshots/mobile-resume.png)
+
+</details>
+
+## Technologies
+
+The key technologies used here are:
+
+- Node
+- Appollo client
+- React JS, with react-dom, react-scripts and react-router-dom packages
+- Ant Design
+
+## Features
+
+The app also includes the following features:
+
+- Form content sent by email on form submission using the **emailjs-com** package
+- Page translation using the **react-i18next** and **i18next** packages
+  Key text on each page is translated. See below as example the landing page in the 3 languages available:
+
+    <details>
+    <summary>About me page - English</summary>
+
+  ![About me page - English](/other/screenshots/desktop-about.png)
+
+    </details>
+
+    <details>
+    <summary>About me page - French</summary>
+
+  ![About me page - French](/other/screenshots/desktop-about-francais.png)
+
+    </details>
+
+    <details>
+    <summary>About me page - German</summary>
+
+  ![About me page - French](/other/screenshots/desktop-about-deutsch.png)
+
+    </details>
+
+- Page is responsive to the changes in viewport size with a custom useEffect
+
+## Contact me
+
+If you have any questions about this application, feel free to get in touch by sending me an [email](mailto:amelie.pira@gmail.com).

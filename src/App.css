@@ -4,22 +4,284 @@
 
 body {
   margin: 0;
+  min-height: 100vh;
+}
+.root {
+  margin: 0;
 }
 
-.navbar {
+.title {
+  margin: 0;
+}
+.main {
+  min-height: 90vh;
+}
+.stackable {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*Navbar section*/
+.navbar-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0;
 }
 .navTitle {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+.portfolio-title {
+  width: 200px;
+}
+
+.language-menu {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
 }
 
 .navLink {
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 10px;
   font-weight: bold;
-  color: rgb(76, 26, 122);
+}
+.main {
+  border-top: 2px solid #531dab;
+}
+
+/*About me section*/
+.about {
+  background-image: url(../other/img/purplePaint.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+.about-me-container {
+  width: 100%;
+  padding: 20px;
+}
+.about-hi {
+  width: 400px;
+  text-align: center;
+  color: #531dab;
+  padding: 2rem;
+}
+.about-text-container {
+  margin: 50px 100px;
+}
+.about-text {
+  text-align: center;
+  margin-top: 20px;
+}
+.about-image-container {
+  margin: 0 100px;
+}
+.about-image {
+  border-radius: 50%;
+  border: 5px solid #531dab;
+}
+.about-quote {
+  font-style: italic;
+  color: #531dab;
+}
+.quote-1-container {
+  margin: 3rem 0 0 8rem;
+}
+.quote-2-container {
+  margin: 2rem 4rem 0 0;
+  text-align: right;
+}
+
+/* Project cards section - Repos from github*/
+.project-cards-container,
+.project-cards-title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  margin: 1rem;
+}
+
+.ant-card-body {
+  min-height: 140px;
+  max-height: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Contact form section */
+.contact-title {
+  text-align: center;
+}
+.contact-text {
+  margin: 50px;
+  text-align: center;
+}
+.form-control {
+  margin: 0 100px;
+  align-items: center;
+}
+
+/*Resume section*/
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.badge-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.badge-box {
+  margin: 10px;
+}
+.resume-container,
+.resume-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.resume-box {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.resume-img {
+  max-width: 800px;
+}
+.resume-title {
+  text-align: center;
+}
+
+/*Footer styling*/
+.footer-container {
+  height: 80px;
+  font-size: 40px;
+  text-align: center;
+  border-top: 2px solid #531dab;
+}
+.footerLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 920px) {
+  .stackable {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .skills-container {
+    margin-top: 50px;
+    max-height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-me-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .about-text-container {
+    margin: 10px 10px 50px 10px;
+  }
+  .quote-1-container,
+  .quote-2-container {
+    margin: 50px;
+    text-align: center;
+  }
+  .contact-text {
+    margin: 50px 20px;
+  }
+}
+
+@media screen and (max-width: 596px) {
+  .stackable {
+    display: flex;
+    flex-direction: column;
+  }
+  .quote-1-container,
+  .quote-2-container {
+    margin: 0;
+    text-align: center;
+  }
+  .skills-container {
+    max-height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-me-container {
+    width: 100%;
+    padding: 10px;
+  }
+  .about-text-container {
+    margin: 10px 10px 50px 10px;
+  }
+  .contact-text {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .stackable {
+    display: flex;
+    flex-direction: column;
+  }
+  .quote-1-container,
+  .quote-2-container {
+    margin: 0;
+    text-align: center;
+  }
+  .skills-container {
+    max-height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-me-container {
+    width: 100%;
+    padding: 10px;
+  }
+  .about-text-container {
+    margin: 10px 10px 50px 10px;
+  }
+  .contact-text {
+    margin: 10px;
+  }
 }
