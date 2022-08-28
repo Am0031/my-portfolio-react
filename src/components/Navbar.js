@@ -71,7 +71,7 @@ export const Navbar = () => {
         <Image
           className="flag-image"
           width={30}
-          src={`/${itemValue}.png`}
+          src={`../images/${itemValue}.png`}
           preview={false}
         />
 
