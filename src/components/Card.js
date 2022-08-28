@@ -16,9 +16,7 @@ export const ProjectCard = ({ data }) => {
         height: 360,
         margin: 10,
       }}
-      cover={
-        <img alt={data.name} src={`${data.imgUrl}`} style={{ height: 170 }} />
-      }
+      cover={<img alt={data.name} src={data.imgUrl} style={{ height: 170 }} />}
       hoverable={true}
       actions={[
         <a href={data.deployedUrl} target="_blank" rel="noreferrer">
