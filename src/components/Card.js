@@ -7,7 +7,6 @@ import { Card } from "antd";
 const { Meta } = Card;
 
 export const ProjectCard = ({ data }) => {
-  const deploy = `https://am0031.github.io/${data.name}/`;
   const tags = data.tags.join(" - ");
 
   return (
@@ -22,13 +21,16 @@ export const ProjectCard = ({ data }) => {
       }
       hoverable={true}
       actions={[
-        <a href={deploy} target="_blank">
-          <GlobalOutlined key="deploy" href={deploy} />
+        <a href={data.deployedUrl} target="_blank">
+          <GlobalOutlined key="deploy" href={data.deployedUrl} />
         </a>,
         <a href={data.html_url} target="_blank">
           <GithubOutlined key="repo" href={data.html_url} />
         </a>,
-        <a href="mailto:amelie.pira@gmail.com" target="_blank">
+        <a
+          href={`mailto:amelie.pira@gmail.com?subject=About your project ${data.name}`}
+          target="_blank"
+        >
           <WechatOutlined key="comment" href="mailto:amelie.pira@gmail.com" />
         </a>,
       ]}

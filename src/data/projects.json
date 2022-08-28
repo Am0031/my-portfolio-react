@@ -5,7 +5,7 @@
       "img": "codeQuiz",
       "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "code-quiz",
-      "deployedUrl": "",
+      "deployedUrl": "https://am0031.github.io/code-quiz/",
       "repoUrl": "https://github.com/Am0031/code-quiz",
       "description": "A simple timed quiz going through coding themed questions and recording the score",
       "tags": ["css", "jQuery", "javascript"]
@@ -16,10 +16,10 @@
       "imgUrl": "https://i.postimg.cc/mDT78056/coding-mentoring.png",
       "name": "coding-mentoring",
       "full_name": "Am0031/coding-mentoring",
-      "deployedUrl": "",
+      "deployedUrl": "https://lit-atoll-12366.herokuapp.com/",
       "repoUrl": "https://github.com/Am0031/coding-mentoring",
       "description": "A simple timed quiz going through coding themed questions and recording the score",
-      "tags": ["css", "jQuery", "javascript"]
+      "tags": ["node", "express", "mysql", "javascript", "handelebars"]
     },
     {
       "id": 480790619,
@@ -27,7 +27,7 @@
       "imgUrl": "https://i.postimg.cc/3JZ5qpNS/day-planner.png",
       "name": "day-planner",
       "full_name": "Am0031/day-planner",
-      "deployedUrl": "",
+      "deployedUrl": "https://afternoon-crag-21477.herokuapp.com/",
       "html_url": "https://github.com/Am0031/day-planner",
       "description": "A simple timed quiz going through coding themed questions and recording the score",
       "tags": ["css", "jQuery", "javascript"]
@@ -38,7 +38,7 @@
       "imgUrl": "https://i.postimg.cc/t4CQGTVX/ecommerce-backend.png",
       "name": "ecommerce-backend",
       "full_name": "Am0031/ecommerce-backend",
-      "deployedUrl": "",
+      "deployedUrl": "https://github.com/Am0031/ecommerce-backend",
       "html_url": "https://github.com/Am0031/ecommerce-backend",
       "description": "A simple timed quiz going through coding themed questions and recording the score",
       "tags": ["mySQL", "express", "node", "postman"]
@@ -49,7 +49,7 @@
       "imgUrl": "https://i.postimg.cc/s2dYZB9z/employee-tracker.png",
       "name": "employee-tracker",
       "full_name": "Am0031/employee-tracker",
-      "deployedUrl": "",
+      "deployedUrl": "https://github.com/Am0031/employee-tracker",
       "html_url": "https://github.com/Am0031/employee-tracker",
       "description": "A simple timed quiz going through coding themed questions and recording the score",
       "tags": ["node", "express", "mySQL", "OOP"]
@@ -60,7 +60,7 @@
       "imgUrl": "https://i.postimg.cc/Wp6HpVVt/event-planning.png",
       "name": "event-planning",
       "full_name": "Am0031/event-planning",
-      "deployedUrl": "",
+      "deployedUrl": "https://am0031.github.io/event-planning/",
       "html_url": "https://github.com/Am0031/event-planning",
       "description": "A simple timed quiz going through coding themed questions and recording the score",
       "tags": ["css", "jQuery", "javascript", "api", "local storage"]
@@ -71,7 +71,7 @@
       "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "hangman-inquirer",
       "full_name": "Am0031/hangman-inquirer",
-      "deployedUrl": "",
+      "deployedUrl": "https://github.com/Am0031/hangman-inquirer",
       "html_url": "https://github.com/Am0031/hangman-inquirer",
       "description": "A simple timed quiz going through coding themed questions and recording the score",
       "tags": ["node", "inquirer"]
@@ -82,7 +82,7 @@
       "imgUrl": "https://i.postimg.cc/FszVtXsM/javascript-algorithms.png",
       "name": "javascript-algorithms",
       "full_name": "Am0031/javascript-algorithms",
-      "deployedUrl": "",
+      "deployedUrl": "https://github.com/Am0031/javascript-algorithms",
       "html_url": "https://github.com/Am0031/javascript-algorithms",
       "description": "A simple timed quiz going through coding themed questions and recording the score",
       "tags": ["jest", "javascript"]
@@ -93,10 +93,10 @@
       "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "note-taker",
       "full_name": "Am0031/note-taker",
-      "deployedUrl": "",
+      "deployedUrl": "https://peaceful-bastion-97815.herokuapp.com/",
       "html_url": "https://github.com/Am0031/note-taker",
       "description": "A note taking app using express.js",
-      "tags": ["css", "jQuery", "javascript"]
+      "tags": ["css", "html", "javascript", "node", "express"]
     },
     {
       "id": 480790347,
@@ -104,10 +104,10 @@
       "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "password-generator",
       "full_name": "Am0031/password-generator",
-      "deployedUrl": "",
+      "deployedUrl": "https://am0031.github.io/password-generator/",
       "html_url": "https://github.com/Am0031/password-generator",
       "description": "A simple timed quiz going through coding themed questions and recording the score",
-      "tags": ["css", "jQuery", "javascript"]
+      "tags": ["css", "html", "jQuery", "javascript"]
     },
     {
       "id": 478636117,
@@ -115,7 +115,7 @@
       "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "portfolio",
       "full_name": "Am0031/portfolio",
-      "deployedUrl": "",
+      "deployedUrl": "https://am0031.github.io/portfolio/",
       "html_url": "https://github.com/Am0031/portfolio",
       "description": "A simple timed quiz going through coding themed questions and recording the score",
       "tags": ["css", "api", "html"]
@@ -126,7 +126,7 @@
       "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "react-practice",
       "full_name": "Am0031/react-practice",
-      "deployedUrl": "",
+      "deployedUrl": "https://github.com/Am0031/react-practice",
       "html_url": "https://github.com/Am0031/react-practice",
       "description": "A simple diary built with react and displaying your calendar and opening a day timeline on day selection",
       "tags": ["react", "javascript"]
@@ -137,7 +137,7 @@
       "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "readme-generator",
       "full_name": "Am0031/readme-generator",
-      "deployedUrl": "",
+      "deployedUrl": "https://github.com/Am0031/readme-generator",
       "html_url": "https://github.com/Am0031/readme-generator",
       "description": "Readme.md generator using node.js",
       "tags": ["node", "inquirer", "javascript"]
@@ -148,7 +148,7 @@
       "imgUrl": "https://i.postimg.cc/Z5yPRPNj/social-network-api.png",
       "name": "social-network-api",
       "full_name": "Am0031/social-network-api",
-      "deployedUrl": "",
+      "deployedUrl": "https://github.com/Am0031/social-network-api",
       "html_url": "https://github.com/Am0031/social-network-api",
       "description": "A backend project setting up the data for a social network platform and postman workflows to test endpoints",
       "tags": ["express", "mongodb", "mongoose", "postman"]
@@ -159,10 +159,10 @@
       "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "team-profile-generator",
       "full_name": "Am0031/team-profile-generator",
-      "deployedUrl": "",
+      "deployedUrl": "https://github.com/Am0031/team-profile-generator",
       "html_url": "https://github.com/Am0031/team-profile-generator",
       "description": "Generating a team profile using node.js",
-      "tags": ["css", "jQuery", "javascript"]
+      "tags": ["css", "html", "node", "jest", "javascript", "OOP"]
     },
     {
       "id": 508780448,
@@ -173,7 +173,7 @@
       "deployedUrl": "",
       "html_url": "https://github.com/Am0031/tech-blog",
       "description": "tech blog app",
-      "tags": ["css", "jQuery", "javascript"]
+      "tags": ["express", "mysql", "handlebars", "javascript", "bootstrap"]
     },
     {
       "id": 524053156,
@@ -181,10 +181,10 @@
       "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
       "name": "text-editor",
       "full_name": "Am0031/text-editor",
-      "deployedUrl": "",
+      "deployedUrl": "https://stormy-sands-72325.herokuapp.com/",
       "html_url": "https://github.com/Am0031/text-editor",
       "description": "A simple timed quiz going through coding themed questions and recording the score",
-      "tags": ["css", "jQuery", "javascript"]
+      "tags": ["express", "webpack", "javascript"]
     },
     {
       "id": 480790822,
@@ -192,10 +192,10 @@
       "imgUrl": "https://i.postimg.cc/LstzkHN1/weather-dashboard.png",
       "name": "weather-dashboard",
       "full_name": "Am0031/weather-dashboard",
-      "deployedUrl": "",
+      "deployedUrl": "https://am0031.github.io/weather-dashboard/",
       "html_url": "https://github.com/Am0031/weather-dashboard",
       "description": "weather dashboard with option to search cities by name and see their current weather and 5 day forecast",
-      "tags": ["jQuery", "api", "javascript"]
+      "tags": ["jQuery", "api", "javascript", "bootstrap"]
     }
   ]
 }
