@@ -22,16 +22,19 @@ export const Navbar = () => {
       key: "1",
       label: "English",
       value: "en",
+      imgUrl: "https://i.postimg.cc/KYfmwVK2/en.png",
     },
     {
       key: "2",
       label: "Francais",
       value: "fr",
+      imgUrl: "https://i.postimg.cc/fTPtgVGK/fr.png",
     },
     {
       key: "3",
       label: "Deutsch",
       value: "de",
+      imgUrl: "https://i.postimg.cc/DwCCNP2N/de.png",
     },
   ];
 
@@ -42,7 +45,7 @@ export const Navbar = () => {
       items={languageItems}
       onSelect={({ key }) => {
         setItemName(languageItems[key - 1].label);
-        setItemValue(languageItems[key - 1].value);
+        setItemValue(languageItems[key - 1].imgUrl);
         changeLanguage(languageItems[key - 1].value);
       }}
     />
@@ -71,7 +74,7 @@ export const Navbar = () => {
         <Image
           className="flag-image"
           width={30}
-          src={`/${itemValue}.png`}
+          src={`/${itemValue}`}
           preview={false}
         />
 

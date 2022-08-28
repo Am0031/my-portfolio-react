@@ -90,7 +90,7 @@
     {
       "id": 503438382,
       "img": "noteTaker",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/FRsM2Hcr/note-Taker.png",
       "name": "note-taker",
       "full_name": "Am0031/note-taker",
       "deployedUrl": "https://peaceful-bastion-97815.herokuapp.com/",
@@ -101,7 +101,7 @@
     {
       "id": 480790347,
       "img": "passwordGenerator",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/Gtn5b3TT/password-Generator.webp",
       "name": "password-generator",
       "full_name": "Am0031/password-generator",
       "deployedUrl": "https://am0031.github.io/password-generator/",
@@ -112,7 +112,7 @@
     {
       "id": 478636117,
       "img": "cssPortfolio",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/8zvf617z/css-Portfolio.jpg",
       "name": "portfolio",
       "full_name": "Am0031/portfolio",
       "deployedUrl": "https://am0031.github.io/portfolio/",
@@ -123,7 +123,7 @@
     {
       "id": 521392855,
       "img": "reactPractice",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/hGS4tgxw/react-Practice.png",
       "name": "react-practice",
       "full_name": "Am0031/react-practice",
       "deployedUrl": "https://github.com/Am0031/react-practice",
@@ -134,7 +134,7 @@
     {
       "id": 497318303,
       "img": "readmeGenerator",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/8PQ7g2K8/readme-Generator.png",
       "name": "readme-generator",
       "full_name": "Am0031/readme-generator",
       "deployedUrl": "https://github.com/Am0031/readme-generator",
@@ -156,7 +156,7 @@
     {
       "id": 500061499,
       "img": "teamProfileGenerator",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/qqd4WTkj/team-Profile-Generator.png",
       "name": "team-profile-generator",
       "full_name": "Am0031/team-profile-generator",
       "deployedUrl": "https://github.com/Am0031/team-profile-generator",
@@ -167,7 +167,7 @@
     {
       "id": 508780448,
       "img": "techBlog",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/3Nymf2xg/techBlog.jpg",
       "name": "tech-blog",
       "full_name": "Am0031/tech-blog",
       "deployedUrl": "",
@@ -178,7 +178,7 @@
     {
       "id": 524053156,
       "img": "textEditor",
-      "imgUrl": "https://i.postimg.cc/6q6YS7yR/code-quiz.png",
+      "imgUrl": "https://i.postimg.cc/02YdTdCf/text-Editor.png",
       "name": "text-editor",
       "full_name": "Am0031/text-editor",
       "deployedUrl": "https://stormy-sands-72325.herokuapp.com/",

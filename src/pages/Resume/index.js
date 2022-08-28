@@ -2,6 +2,7 @@ import { Button } from "antd";
 import useWindowDimensions from "../../utils/windowSize";
 import { useTranslation } from "react-i18next";
 import { BadgeList } from "../../components/BadgeList";
+import resume from "./resume.png";
 
 export const Resume = () => {
   const { width } = useWindowDimensions();
@@ -16,7 +17,7 @@ export const Resume = () => {
           <Button
             style={{ backgroundColor: "#531dab", color: "#fff", margin: 10 }}
           >
-            <a href={`/resume.pdf`} target="_blank" rel="noreferrer">
+            <a href={`./resume.pdf`} target="_blank" rel="noreferrer">
               {t("download-resume")}
             </a>
           </Button>
@@ -25,7 +26,7 @@ export const Resume = () => {
           <img
             className="resume-img"
             alt="resume"
-            src={`/resume.png`}
+            src={resume}
             style={{ width: width, margin: 10 }}
           />
         </div>

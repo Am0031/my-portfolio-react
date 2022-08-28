@@ -17,7 +17,7 @@ export const ProjectCard = ({ data }) => {
         margin: 10,
       }}
       cover={
-        <img alt={data.name} src={`/${data.img}.png`} style={{ height: 170 }} />
+        <img alt={data.name} src={`${data.imgUrl}`} style={{ height: 170 }} />
       }
       hoverable={true}
       actions={[
