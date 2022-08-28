@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { BadgeList } from "../../components/BadgeList";
 
 export const Resume = () => {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   const { t } = useTranslation();
   return (
     <div className="resume-container main">

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import aboutImage from "./aboutImage.png";
-import { BadgeList } from "../../components/BadgeList";
+
 import { Image, Typography } from "antd";
 const { Title } = Typography;
 

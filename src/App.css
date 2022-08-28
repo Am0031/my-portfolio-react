@@ -75,6 +75,9 @@ body {
   color: #531dab;
   padding: 2rem;
 }
+.about-text-container {
+  margin: 50px 100px;
+}
 .about-text {
   text-align: center;
   margin-top: 20px;
@@ -209,8 +212,9 @@ body {
     width: 100%;
     padding: 10px;
   }
+
   .about-text-container {
-    margin-bottom: 50px;
+    margin: 10px 10px 50px 10px;
   }
   .quote-1-container,
   .quote-2-container {
@@ -244,6 +248,9 @@ body {
     width: 100%;
     padding: 10px;
   }
+  .about-text-container {
+    margin: 10px 10px 50px 10px;
+  }
   .contact-text {
     margin: 10px;
   }
@@ -270,6 +277,9 @@ body {
   .about-me-container {
     width: 100%;
     padding: 10px;
+  }
+  .about-text-container {
+    margin: 10px 10px 50px 10px;
   }
   .contact-text {
     margin: 10px;

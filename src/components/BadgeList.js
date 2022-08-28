@@ -5,7 +5,7 @@ import badgeData from "../data/badges.json";
 
 export const BadgeList = () => {
   const { t } = useTranslation();
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   return (
     <div className="skills-container" style={{ width: width }}>
       <h1>{t("skills-title")}</h1>
