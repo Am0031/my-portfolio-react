@@ -25,19 +25,19 @@ export const Navbar = () => {
       key: "1",
       label: "English",
       value: "en",
-      imgSrc: enFlag,
+      imgsrc: enFlag,
     },
     {
       key: "2",
       label: "Francais",
       value: "fr",
-      imgSrc: frFlag,
+      imgsrc: frFlag,
     },
     {
       key: "3",
       label: "Deutsch",
       value: "de",
-      imgSrc: deFlag,
+      imgsrc: deFlag,
     },
   ];
 
@@ -48,7 +48,7 @@ export const Navbar = () => {
       items={languageItems}
       onSelect={({ key }) => {
         setItemName(languageItems[key - 1].label);
-        setFlagSrc(languageItems[key - 1].imgSrc);
+        setFlagSrc(languageItems[key - 1].imgsrc);
         changeLanguage(languageItems[key - 1].value);
       }}
     />
