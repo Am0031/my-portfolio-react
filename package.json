@@ -2,6 +2,7 @@
   "name": "my-portfolio-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://am0031.github.io/my-portfolio-react",
   "dependencies": {
     "@apollo/client": "^3.6.9",
     "@emotion/react": "^11.10.0",
