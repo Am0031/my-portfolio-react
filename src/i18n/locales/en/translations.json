@@ -22,7 +22,7 @@
   "contact-field-message": "Message",
   "contact-form-submit": "Send",
   "contact-validate-name": "Please enter your name!",
-  "contact-validate-email": "Please enter your email!",
+  "contact-validate-email": "Please enter a valid email!",
   "contact-validate-subject": "Please add a subject!",
   "contact-validate-message": "Please type a message!",
   "resume-title": "My CV (english)",

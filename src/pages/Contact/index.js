@@ -59,6 +59,7 @@ export const Contact = () => {
             rules={[
               {
                 required: true,
+                type: "email",
                 message: `${t("contact-validate-email")}`,
               },
             ]}
