@@ -14,10 +14,33 @@ import readmeGenerator from "../images/readmeGenerator.png";
 import socialNetworkApi from "../images/socialNetworkApi.png";
 import teamProfileGenerator from "../images/teamProfileGenerator.png";
 import techBlog from "../images/techBlog.png";
+import weCare from "../images/weCare.png";
 import textEditor from "../images/textEditor.png";
 import weatherDashboard from "../images/weatherDashboard.png";
 
 export const projects = [
+  {
+    id: 538602179,
+    img: weCare,
+    imgUrl: "https://i.postimg.cc/MKLbq3nv/we-care.png",
+    name: "we-care-react",
+    deployedUrl: "https://fathomless-bayou-99698.herokuapp.com/",
+    repoUrl: "https://github.com/Am0031/we-care-react",
+    description:
+      "Front end for WeCare app allowing efficient collaboration between carers and care users.",
+    tags: ["react", "material-UI", "apollo-client"],
+  },
+  {
+    id: 538601435,
+    img: weCare,
+    imgUrl: "https://i.postimg.cc/MKLbq3nv/we-care.png",
+    name: "we-care-server",
+    deployedUrl: "https://fathomless-bayou-99698.herokuapp.com/",
+    repoUrl: "https://github.com/Am0031/we-care-server",
+    description:
+      "Back end for WeCare app allowing efficient collaboration between carers and care users.",
+    tags: ["node", "express", "mongodb", "graphql"],
+  },
   {
     id: 480789709,
     img: codeQuiz,
