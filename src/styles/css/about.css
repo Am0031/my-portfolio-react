@@ -1,0 +1,67 @@
+/*About components*/
+.about-text-card {
+  padding: 2rem;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #531dab;
+}
+
+.about-quote-card {
+  padding: 1rem;
+  background-color: rgb(255, 255, 255, 0.6);
+  border-radius: 8px;
+  /* border: 2px solid #531dab; */
+}
+.about-quote-card * {
+  color: #531dab;
+  font-style: italic;
+}
+
+.align-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/*About me page*/
+.about {
+  background-image: url(../../../other/img/purplePaint.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+.about-me-container {
+  width: 100%;
+  padding: 20px;
+}
+.about-hi {
+  width: 400px;
+  text-align: center;
+  color: #531dab;
+  padding: 2rem;
+}
+.about-text-container {
+  margin: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 2rem;
+}
+.about-text {
+  text-align: center;
+  margin-top: 20px;
+}
+.about-image-container {
+  margin: 0 100px;
+}
+.about-image {
+  border-radius: 50%;
+  border: 5px solid #531dab;
+}
+.about-quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+}

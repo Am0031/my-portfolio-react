@@ -13,9 +13,7 @@ body {
 .title {
   margin: 0;
 }
-.main {
-  min-height: 90vh;
-}
+
 .stackable {
   display: flex;
   flex-direction: row;
@@ -56,49 +54,6 @@ body {
 }
 .main {
   border-top: 2px solid #531dab;
-}
-
-/*About me section*/
-.about {
-  background-image: url(../other/img/purplePaint.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 90vh;
-}
-.about-me-container {
-  width: 100%;
-  padding: 20px;
-}
-.about-hi {
-  width: 400px;
-  text-align: center;
-  color: #531dab;
-  padding: 2rem;
-}
-.about-text-container {
-  margin: 50px 100px;
-}
-.about-text {
-  text-align: center;
-  margin-top: 20px;
-}
-.about-image-container {
-  margin: 0 100px;
-}
-.about-image {
-  border-radius: 50%;
-  border: 5px solid #531dab;
-}
-.about-quote {
-  font-style: italic;
-  color: #531dab;
-}
-.quote-1-container {
-  margin: 3rem 0 0 8rem;
-}
-.quote-2-container {
-  margin: 2rem 4rem 0 0;
-  text-align: right;
 }
 
 /* Project cards section - Repos from github*/
