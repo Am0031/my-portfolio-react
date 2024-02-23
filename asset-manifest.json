@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.56238a56.css",
-    "main.js": "./static/js/main.18ab741f.js",
+    "main.css": "./static/css/main.7084e0c8.css",
+    "main.js": "./static/js/main.3c4bbadc.js",
     "static/media/mentorMe.png": "./static/media/mentorMe.f2fe5e8d4cc2974cfa10.png",
     "static/media/eventPlanning.png": "./static/media/eventPlanning.5bfac4fc8033c89ea78e.png",
     "static/media/purplePaint.jpg": "./static/media/purplePaint.49734625a832c343b44a.jpg",
     "static/media/weatherDashboard.png": "./static/media/weatherDashboard.ccc5ea862d2287a0cec5.png",
     "static/media/teamProfileGenerator.png": "./static/media/teamProfileGenerator.e366c84f4a0c5ee289d4.png",
     "static/media/resume.png": "./static/media/resume.16a4038ccb1840fcc35d.png",
+    "static/media/weCare.png": "./static/media/weCare.f70322a48a9e5cb7ba45.png",
     "static/media/employeeTracker.png": "./static/media/employeeTracker.71385d4337f54ec32a00.png",
     "static/media/codeQuiz.png": "./static/media/codeQuiz.e3bcd26b755d152be1e5.png",
     "static/media/textEditor.png": "./static/media/textEditor.d30a403350701d172749.png",
@@ -16,19 +17,19 @@
     "static/media/socialNetworkApi.png": "./static/media/socialNetworkApi.26bbfff250f132936bb3.png",
     "static/media/javascriptAlgorithms.png": "./static/media/javascriptAlgorithms.cc7ee3d7fa08b899317d.png",
     "static/media/cssPortfolio.png": "./static/media/cssPortfolio.8dd7b2e360e0d56b7ac6.png",
+    "static/media/profileImage.png": "./static/media/profileImage.70d887adc3e3022b98bd.png",
     "static/media/readmeGenerator.png": "./static/media/readmeGenerator.4de1c568b99631f54c18.png",
     "static/media/dayPlanner.png": "./static/media/dayPlanner.e03af4b8d9316481d747.png",
     "static/media/noteTaker.png": "./static/media/noteTaker.e94f96fde821cae1c0ac.png",
     "static/media/passwordGenerator.png": "./static/media/passwordGenerator.bbf0c1e6704a58d09b37.png",
     "static/media/reactPractice.png": "./static/media/reactPractice.33a920f51b4c55b918fc.png",
     "static/media/techBlog.png": "./static/media/techBlog.aca1363679ab299e6632.png",
-    "static/media/aboutImage.png": "./static/media/aboutImage.3bd8ce699083449207a7.png",
     "index.html": "./index.html",
-    "main.56238a56.css.map": "./static/css/main.56238a56.css.map",
-    "main.18ab741f.js.map": "./static/js/main.18ab741f.js.map"
+    "main.7084e0c8.css.map": "./static/css/main.7084e0c8.css.map",
+    "main.3c4bbadc.js.map": "./static/js/main.3c4bbadc.js.map"
   },
   "entrypoints": [
-    "static/css/main.56238a56.css",
-    "static/js/main.18ab741f.js"
+    "static/css/main.7084e0c8.css",
+    "static/js/main.3c4bbadc.js"
   ]
 }
