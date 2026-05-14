@@ -41,18 +41,16 @@ export const Navbar = () => {
     },
   ];
 
-  const languageMenu = (
-    <Menu
-      selectable
-      defaultSelectedKeys={["1"]}
-      items={languageItems}
-      onSelect={({ key }) => {
-        setItemName(languageItems[key - 1].label);
-        setFlagSrc(languageItems[key - 1].imgsrc);
-        changeLanguage(languageItems[key - 1].value);
-      }}
-    />
-  );
+  const languageMenuProps = {
+    selectable: true,
+    defaultSelectedKeys: ["1"],
+    items: languageItems,
+    onSelect: ({ key }) => {
+      setItemName(languageItems[key - 1].label);
+      setFlagSrc(languageItems[key - 1].imgsrc);
+      changeLanguage(languageItems[key - 1].value);
+    },
+  };
 
   const { t } = useTranslation();
 
@@ -82,7 +80,7 @@ export const Navbar = () => {
         />
 
         <div className="language-menu">
-          <Dropdown overlay={languageMenu} arrow={false}>
+          <Dropdown menu={languageMenuProps} arrow={false}>
             <Typography.Link>
               <Space>
                 {itemName}
